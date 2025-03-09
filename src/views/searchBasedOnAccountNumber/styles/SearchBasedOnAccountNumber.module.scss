@@ -1,0 +1,47 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.account-search-bar {
+  display: flex;
+  width: 100%;
+  .ant-form-item {
+    width: 70%;
+  }
+  > div:first-child {
+    margin-bottom: 0px !important;
+  }
+}
+.account-search-bar-input {
+  width: 100%;
+}
+.account-search-bar-btn {
+  margin-left: 16px;
+  margin-right: auto !important;
+  > div > div > div > div {
+    display: flex;
+  }
+}
+.account-search-btn {
+  height: 32px !important;
+  width: 80px;
+}
+
+.account-deny-status {
+  width: fit-content;
+  min-width: 123px;
+  height: 28px;
+  border-radius: 6px;
+  background-color: $Grey-Light3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $Grey-Dark3;
+  font-size: 12px;
+}
+.account-access-part {
+  display: flex;
+}
+.account-status {
+  width: max-content !important;
+  padding: 4px 8px !important;
+  min-width: 123px !important;
+}

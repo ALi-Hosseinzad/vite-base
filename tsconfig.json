@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "assets": ["./src/assets/*"],
+      "components": ["./src/components/*"],
+      "store": ["./src/store/*"],
+      "constants": ["./src/constants/*"],
+      "helpers": ["./src/helpers/*"],
+      "context": ["./src/context/*"],
+      "container": ["./src/container/*"],
+      "views": ["./src/views/*"]
+    }
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

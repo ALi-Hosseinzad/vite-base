@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Vazir-bold;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Vazir-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir-light;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Vazir-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir-regular;
+  font-style: normal;
+  src: url("../fonts/Vazir-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir-medium;
+  font-style: normal;
+  src: url("../fonts/Vazir-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir-bold-FD;
+  font-style: normal;
+  src: url("../fonts/Farsi-Digits/Vazir-Bold-FD.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir-medium-FD;
+  font-style: normal;
+  src: url("../fonts/Farsi-Digits/Vazir-Medium-FD.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir-regular-FD;
+  font-style: normal;
+  src: url("../fonts/Farsi-Digits/Vazir-Regular-FD.woff") format("woff");
+}

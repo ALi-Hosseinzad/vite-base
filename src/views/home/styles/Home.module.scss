@@ -1,0 +1,35 @@
+.home {
+  width: 100%;
+  height: calc(100vh - 112px);
+}
+.home-img {
+  width: 100%;
+  height: 100%;
+}
+.home-version {
+  margin: 0px;
+  position: absolute;
+  bottom: 24px;
+  left: 2.3%;
+  font-size: 10px;
+  color: var(--Green-Dark1);
+}
+@media screen and (min-width: 1600px) {
+  .home {
+    display: flex;
+  }
+  .home-img {
+    width: 83%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .home-version {
+    left: 8.7%;
+  }
+  @-moz-document url-prefix() {
+    .home-img {
+      height: 100%;
+    }
+  }
+}

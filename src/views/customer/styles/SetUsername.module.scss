@@ -1,0 +1,52 @@
+.set-username-form {
+  margin: 46px auto auto;
+  width: 343px;
+}
+.set-username-form-item {
+  margin-bottom: 0px !important;
+}
+.set-username-form-item > div > div {
+  padding-bottom: 4px !important;
+}
+.set-username-form-item > div > div > label {
+  color: var(--Grey-Dark5);
+}
+.set-username-form-input {
+  height: 48px;
+  font-size: 16px !important;
+  line-height: 26px !important;
+  text-align: left;
+}
+.set-username-form-input::placeholder {
+  font-size: 16px !important;
+  line-height: 26px !important;
+  text-align: right;
+}
+.set-username-form-input-mobile {
+  text-align: end;
+}
+.set-username-form-text {
+  color: var(--Grey-Dark3);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+}
+.set-username-space {
+  margin: 18px auto 172px;
+  width: 343px;
+  display: flex;
+  align-items: baseline;
+}
+.set-username-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: right;
+  color: var(--Grey-Dark3);
+}
+.set-username-confirm-btn {
+  width: 65%;
+}
+.set-username-cancel-btn {
+  width: calc(35% - 24px);
+}

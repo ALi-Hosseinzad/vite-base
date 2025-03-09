@@ -1,0 +1,51 @@
+.url {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 24px;
+  :global {
+    .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+      border-radius: 8px 0 0 8px !important;
+    }
+  }
+  > div {
+    display: flex;
+    align-items: center !important;
+  }
+  button {
+    margin-left: 28px;
+    width: 100px;
+  }
+  label {
+    margin-right: 51px;
+    align-self: self-end;
+    line-height: 32px;
+  }
+}
+.token {
+  @extend .url;
+  margin-top: 24px;
+}
+.body {
+  display: flex;
+  margin-top: 16px;
+  label {
+    margin-right: 36px;
+  }
+}
+.res {
+  display: flex;
+  margin-top: 16px;
+  label {
+    margin-right: 8px;
+  }
+}
+.ltr {
+  direction: ltr;
+  width: calc(100vw - 700px);
+  max-width: 900px;
+  min-width: 670px;
+}
+.branch-code {
+  border-radius: 8px 0 0 8px !important;
+  text-align: left;
+}

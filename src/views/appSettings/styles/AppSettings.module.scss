@@ -1,0 +1,102 @@
+@import "../../../assets//styles/_Variables.scss";
+
+.appSettings-row-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.delete-modal-appSettings {
+  width: 500px;
+  margin: auto;
+  background-color: $Grey-Light2;
+  border-radius: 16px;
+  padding: 16px;
+}
+.delete-modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 343px;
+  margin: 32px auto 0px;
+}
+.delete-modal-appSettings-text-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  min-height: 48px;
+  border-bottom: 1px solid $Grey-Light5;
+  :first-child {
+    color: $Grey-Dark3;
+  }
+}
+.delete-modal-appSettings :last-child {
+  border-bottom: unset !important;
+}
+.text {
+  margin: 32px auto;
+  text-align: center;
+  font-size: 16px;
+  max-width: 500px;
+}
+.delete-modal-confirm-button {
+  width: calc(70% - 24px);
+  height: 42px;
+  span {
+    font-family: $Medium;
+  }
+}
+.delete-modal-cancel-button {
+  width: 30%;
+  height: 42px;
+  span {
+    font-family: $Medium;
+  }
+}
+.formContainer {
+  border: none !important;
+  margin: 0px !important;
+}
+.form-items-container {
+  border: 1px solid $Grey-Light5;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+}
+.appSettingsEditButton {
+  margin: 32px auto 0px;
+  > div > div > div > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px !important;
+  }
+}
+.confirmBtn {
+  width: 222px;
+  display: flex;
+  margin-right: -24px;
+  height: 40px;
+}
+.cancelBtn {
+  width: 97px;
+  display: flex;
+  margin-right: 24px;
+  height: 40px;
+}
+.form-item {
+  width: 343px;
+}
+.inputModal,
+.inputModal2 {
+  height: 48px !important;
+  border-radius: 12px !important;
+  font-size: 16px;
+  text-align: left;
+}
+.inputModal::placeholder {
+  text-align: right !important;
+}

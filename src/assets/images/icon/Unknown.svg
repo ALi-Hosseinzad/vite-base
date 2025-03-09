@@ -1,0 +1,21 @@
+<svg id="transaction_unknown" data-name="transaction unknown" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fabc2c;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3888" data-name="Group 3888" transform="translate(2.667 2.667)">
+    <g id="Group_3887" data-name="Group 3887" transform="translate(12 7.332)">
+      <path id="Path_4781" data-name="Path 4781" class="cls-1" d="M12.333,18.57A1.337,1.337,0,0,1,11,17.237V11.623a1.333,1.333,0,0,1,2.667,0v5.613A1.337,1.337,0,0,1,12.333,18.57Z" transform="translate(-11 -6.569)"/>
+      <path id="Path_4782" data-name="Path 4782" class="cls-1" d="M12.333,10.167a1.314,1.314,0,0,1-.507-.093A1.354,1.354,0,0,1,11.4,9.78a1.166,1.166,0,0,1-.293-.427A1.394,1.394,0,0,1,11,8.834a1.327,1.327,0,0,1,.107-.507A1.166,1.166,0,0,1,11.4,7.9a1.294,1.294,0,0,1,1.2-.373.728.728,0,0,1,.24.08,1.345,1.345,0,0,1,.24.12,2.317,2.317,0,0,1,.2.173,1.354,1.354,0,0,1,.293.427A1.374,1.374,0,0,1,13.28,9.78a1.354,1.354,0,0,1-.427.293A1.381,1.381,0,0,1,12.333,10.167Z" transform="translate(-11 -7.499)"/>
+    </g>
+    <path id="Path_4783" data-name="Path 4783" class="cls-1" d="M15.333,28.667A13.333,13.333,0,1,1,28.667,15.333,13.355,13.355,0,0,1,15.333,28.667Zm0-24A10.667,10.667,0,1,0,26,15.333,10.681,10.681,0,0,0,15.333,4.667Z" transform="translate(-2 -2)"/>
+  </g>
+  <rect id="Rectangle_18643" data-name="Rectangle 18643" class="cls-2" width="32" height="32"/>
+</svg>

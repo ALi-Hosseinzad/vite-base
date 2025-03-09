@@ -1,0 +1,153 @@
+@import "../../../assets//styles/_Variables.scss";
+
+.credit-hub-container {
+  height: calc(100vh - 206px);
+  overflow-y: auto;
+}
+.view-box {
+  padding: 16px;
+  margin: 24px auto;
+  border-radius: 12px;
+  width: calc(100% - 32px);
+  border: 1px solid $Grey-Dark1;
+}
+.view-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  margin: 12px 0;
+  font-size: 16px;
+  min-width: 300px;
+  color: $Grey-Dark5;
+  :first-child {
+    font-size: 14px;
+    margin-left: 4px;
+    color: $Grey-Dark4;
+  }
+}
+.full-row {
+  @extend .row;
+  width: fit-content;
+  min-width: 500px;
+}
+.formContainer {
+  border: none !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  background-color: transparent !important;
+}
+.form-items {
+  margin: 24px auto;
+  border-radius: 12px;
+  width: calc(100% - 32px);
+  border: 1px solid $Grey-Dark1;
+}
+.form-wrapper {
+}
+.form-name {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 0px 16px;
+  position: relative;
+  align-items: center;
+  color: $Green-Light5;
+  margin: 24px auto 0px;
+  width: calc(100% - 32px);
+  font-family: $Medium !important;
+}
+.row-form {
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  margin: 0px auto 24px;
+  width: calc(100% - 32px);
+  justify-content: flex-start;
+}
+.form-name:after {
+  flex: 1;
+  content: "";
+  height: 1px;
+  margin-right: 1rem;
+  background-color: $Green-Light4;
+}
+.form-name-2 {
+  @extend .form-name;
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 16px;
+}
+.form-item {
+  width: 343px;
+  margin-left: 24px;
+}
+.inputModal,
+.inputModal2,
+.input-desc {
+  height: 48px !important;
+  border-radius: 12px !important;
+  font-size: 16px;
+  text-align: left;
+}
+.input-desc {
+  text-align: right !important;
+}
+.inputModal::placeholder {
+  text-align: right !important;
+  font-size: 14px !important;
+}
+.appSettingsEditButton {
+  margin: 32px auto 0px;
+  > div > div > div > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px !important;
+  }
+}
+.confirmBtn {
+  width: 222px;
+  display: flex;
+  margin-right: -24px;
+  height: 40px;
+}
+.cancelBtn {
+  width: 97px;
+  display: flex;
+  margin-right: 24px;
+  height: 40px;
+}
+.form-item-hidden {
+  visibility: hidden;
+}
+.input-number {
+  height: 48px !important;
+  border-radius: 12px !important;
+  background-color: transparent !important;
+  -webkit-border-radius: 12px !important;
+  -moz-border-radius: 12px !important;
+  -ms-border-radius: 12px !important;
+  -o-border-radius: 12px !important;
+  input {
+    padding: 0px;
+    height: 36px;
+    font-size: 16px !important;
+    text-align: left !important;
+  }
+  input::placeholder {
+    font-size: 14px !important;
+    text-align: right !important;
+  }
+  > div {
+    height: 36px !important;
+  }
+}
+.row-upload {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,8 @@
+export const downloadVideo = (url, type, fileName) => {
+  const link = document.createElement("a");
+  link.href = url;
+  link.setAttribute("download", `${fileName}.${type}`);
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};

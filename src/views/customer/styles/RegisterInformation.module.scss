@@ -1,0 +1,76 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.register-information-form {
+  margin: 24px auto auto;
+  width: 343px;
+}
+.register-information-form-item > div > div {
+  padding-bottom: 4px !important;
+}
+.register-information-form-item > div > div > label {
+  color: var(--Grey-Dark5);
+}
+.register-information-form-input {
+  height: 48px;
+  font-size: 16px !important;
+  line-height: 26px !important;
+}
+.register-information-form-input::placeholder {
+  font-size: 16px !important;
+  line-height: 26px !important;
+}
+.register-information-form-input-mobile {
+  text-align: end;
+}
+.register-information-form-text {
+  color: var(--Grey-Dark3);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+}
+.register-information-form-mobile {
+  margin-bottom: 24px;
+}
+.register-new-customer-input {
+  height: 48px !important;
+  padding: 5px 16px;
+  text-align: left;
+}
+.register-new-customer-input-mobile {
+  height: 48px !important;
+  padding: 5px 16px;
+  text-align: left;
+}
+.register-new-customer-input::placeholder {
+  font-size: 16px !important;
+  text-align: right;
+}
+.register-new-customer-input-mobile::placeholder {
+  font-size: 16px !important;
+  text-align: left;
+}
+.register-modal-confirm-button {
+  width: 65%;
+  height: 40px;
+}
+.register-modal-cancel-button {
+  width: calc(35% - 24px);
+  height: 40px;
+}
+.show-error {
+  margin-top: 38px;
+  > div > input {
+    border: 1px solid $Notif-Red !important;
+  }
+}
+.text-error {
+  font-size: 12px;
+  font-family: $Regular;
+  color: $Notif-Red;
+}
+.register-information-select-modal {
+  height: 48px;
+  div {
+    height: 48px !important;
+  }
+}

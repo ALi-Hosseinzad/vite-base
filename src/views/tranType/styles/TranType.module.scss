@@ -1,0 +1,75 @@
+.account-search-bar {
+  display: flex;
+  width: 100%;
+  .ant-form-item {
+    width: 70%;
+  }
+  > div:first-child {
+    margin-bottom: 0px !important;
+  }
+}
+
+.account-search-bar-btn {
+  margin-left: 16px;
+  margin-right: auto !important;
+  > div > div > div > div {
+    display: flex;
+  }
+}
+.NewDatePicker {
+  margin-top: 0px !important;
+}
+.date-picker {
+  margin-top: 0px !important;
+  > div > input {
+    height: 32px !important;
+    width: 196px !important;
+  }
+}
+
+.date-picker-pad {
+  margin-top: 8px !important;
+}
+.inputModal {
+  height: 48px !important;
+  border-radius: 12px !important;
+  font-size: 16px;
+  div {
+    height: 48px !important;
+    border-radius: 12px !important;
+  }
+  :global {
+    .ant-select-clear {
+      height: 16px;
+      width: 16px;
+      left: 12px;
+      top: 22px;
+      cursor: pointer;
+    }
+  }
+}
+.modalButton {
+  margin-top: 40px;
+  margin-bottom: 0;
+  > div > div > div > div {
+    display: flex;
+    justify-content: center;
+  }
+  .confirmBtn {
+    height: 40px;
+    width: 222px;
+    display: flex;
+    span {
+      font-size: 16px !important;
+    }
+  }
+  .cancelBtn {
+    height: 40px;
+    width: 97px;
+    display: flex;
+    margin-right: 24px;
+    span {
+      font-size: 16px !important;
+    }
+  }
+}

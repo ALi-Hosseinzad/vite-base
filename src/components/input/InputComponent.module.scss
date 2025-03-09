@@ -1,0 +1,60 @@
+@import "../../assets/styles/_Variables.scss";
+
+.input-component {
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid $Grey-Dark1;
+  padding: 5px 8px;
+  align-items: center;
+  height: 32px;
+  direction: ltr;
+  text-align: end;
+}
+.input-component-with-icon input,
+.input-component input {
+  font-family: Vazir-regular-FD !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  direction: ltr;
+  text-align: end;
+}
+.input-component-with-icon {
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid $Grey-Dark1;
+  align-items: center;
+  padding: 3px 8px !important;
+  height: 32px;
+}
+.input-component:hover,
+.input-component:focus,
+.input-component:active,
+.input-component:visited .input-component-with-icon:hover,
+.input-component-with-icon:hover,
+.input-component-with-icon:active,
+.input-component-with-icon:visited {
+  border: 1px solid $Logo-GreenDark !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.input-component[disabled]:hover,
+.input-component[disabled]:focus,
+.input-component[disabled]:active,
+.input-component:visited .input-component-with-icon[disabled]:hover,
+.input-component-with-icon[disabled]:hover,
+.input-component-with-icon[disabled]:active,
+.input-component-with-icon[disabled]:visited {
+  border: 1px solid #d9d9d9 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.input-component::placeholder,
+.input-component-with-icon > input::placeholder {
+  color: $Grey-Dark1;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  font-family: Vazir-regular-FD !important;
+}

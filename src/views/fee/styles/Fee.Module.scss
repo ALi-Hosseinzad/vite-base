@@ -1,0 +1,223 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.search-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  > div {
+    display: flex;
+  }
+  .ant-form-item {
+    width: 70%;
+  }
+  > div:first-child {
+    margin-bottom: 0px !important;
+  }
+}
+.index-record {
+  padding: 0px !important;
+}
+.search-bar-input {
+  width: 100%;
+}
+.search-bar-btn > div > div > div > div {
+  display: flex !important;
+}
+.search-btn {
+  height: 32px !important;
+  width: 80px;
+}
+.table-main {
+  :global {
+    .ant-table-tbody .ant-table-measure-row > td {
+      padding: 0px !important;
+    }
+    .ant-table-tbody > tr td:last-child {
+      padding: 8px 0px !important;
+      border-bottom-left-radius: 0px !important;
+    }
+  }
+}
+.expanded-table {
+  max-width: 99%;
+  :global {
+    .ant-table-fixed-header {
+      margin-left: 0px !important;
+    }
+    .ant-table-container table > .ant-table-tbody {
+      background-color: $Grey-Back;
+    }
+    .ant-table-container table > thead > tr:first-child th:first-child {
+      border-radius: unset !important;
+    }
+    .ant-table.ant-table-rtl {
+      margin-right: 0px !important;
+    }
+    .ant-table-container table > thead > tr:first-child th:last-child {
+      border-radius: unset !important;
+    }
+    .table-wrapper .ant-spin-nested-loading .ant-spin-container .ant-table .ant-table-container .ant-table-header {
+      border-radius: unset !important;
+    }
+    .ant-table-expanded-row .ant-table-tbody > tr:last-child > td {
+      border-bottom: 1px solid $Grey-Light4;
+    }
+    .ant-table-container table > tbody > tr:last-child td:last-child {
+      border-bottom-left-radius: 0px !important;
+    }
+  }
+}
+.fee-container {
+  width: 766px;
+  margin: 0 auto 24px;
+  form {
+    padding: 0px !important;
+  }
+}
+.col {
+  margin-top: 16px;
+  border-bottom: 1px solid $Grey-Light4;
+  opacity: 1;
+  transition: all 3s ease-out;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 716px;
+  margin: 0px auto 24px;
+  align-items: center;
+  > div {
+    margin-bottom: 0px !important;
+  }
+}
+
+.select-input {
+  > div {
+    height: 48px !important;
+  }
+  :global {
+    .ant-select-clear {
+      display: none !important;
+    }
+  }
+}
+.add-input {
+  height: 48px !important;
+  background-color: $White !important;
+  > div {
+    height: 48px !important;
+    > span > input {
+      height: 48px !important;
+    }
+  }
+}
+.input-number {
+  height: 48px !important;
+  direction: ltr;
+  background-color: $White !important;
+  input {
+    padding: 0px;
+    font-size: 14px;
+    height: 36px;
+  }
+  > div {
+    height: 46px !important;
+  }
+}
+.icon-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 74px;
+  width: 24px;
+}
+.add-new-beneficiary {
+  display: flex;
+  width: fit-content;
+  margin: 24px auto;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin: 0px 4px;
+    cursor: pointer !important;
+    color: $Logo-GreenDark;
+  }
+}
+.collapsible {
+  background-color: $Grey-Dark2;
+  color: $White;
+  cursor: pointer;
+  padding: 18px;
+  width: calc(100% + 1px);
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: $Grey-Dark3;
+}
+.edit-fee-buttons {
+  > div > div > div > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px !important;
+    margin-top: 16px !important;
+  }
+  .confirm-button {
+    width: 222px;
+    display: flex;
+    margin-right: -24px;
+    height: 40px;
+  }
+  .cancel-button {
+    width: 97px;
+    display: flex;
+    margin-right: 24px;
+    height: 40px;
+  }
+}
+.switch-container {
+  width: 343px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border: 1px solid $Grey-Dark1;
+  border-radius: 8px;
+  margin-top: 26px;
+}
+.switch-container:hover,
+.switch-container:focus {
+  border: 1px solid $Green-Dark1;
+}
+.site-collapse-custom-collapse {
+  background: var(--White);
+
+  border-radius: 12px;
+  margin-top: 24px;
+}
+.site-collapse-custom-collapse {
+  :global {
+    .ant-collapse-item {
+      background: var(--White);
+      background-blend-mode: overlay;
+      mix-blend-mode: normal;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.07);
+      border-radius: 12px !important;
+      border-bottom: unset !important;
+      margin-bottom: 24px;
+    }
+    .ant-collapse-item-active .ant-collapse-header {
+      background: var(--Green-Light3);
+      background-blend-mode: overlay;
+      mix-blend-mode: normal;
+    }
+  }
+}
+.edit-username-icon-rotate {
+  transform: translateY(-50%) rotate(180deg) !important;
+  margin-top: 24px;
+}

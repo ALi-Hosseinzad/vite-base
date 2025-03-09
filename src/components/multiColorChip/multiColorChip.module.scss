@@ -1,0 +1,14 @@
+@import "../../assets/styles/_Variables.scss";
+
+.multi-chip-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 12px;
+  border-radius: 8px;
+  height: 24px;
+  width: fit-content;
+  p {
+    margin: 0px;
+  }
+}

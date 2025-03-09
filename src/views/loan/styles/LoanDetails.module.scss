@@ -1,0 +1,221 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.loan-wrapper {
+  height: calc(100vh - 206px);
+  overflow-y: auto;
+}
+.detail-info-wrapper {
+  margin-top: 24px;
+}
+.detail-info-wrapper > div {
+  margin-left: 32px;
+  margin-bottom: 32px;
+  width: 22.7%;
+}
+.detail-info-wrapper2 {
+  @extend .detail-info-wrapper;
+  margin-top: 32px;
+}
+.text-area-info-wrapper > div {
+  width: 97%;
+  margin-bottom: 32px;
+}
+.text-area-info-wrapper {
+  margin-bottom: 8px;
+}
+.text-area-info-wrapper2 {
+  @extend .text-area-info-wrapper;
+  margin-top: 32px;
+}
+.details-info-title {
+  font-family: $Bold !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25.78px;
+  text-align: right;
+  color: $Grey-Dark5;
+}
+.jobs-header {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25.78px;
+  text-align: right;
+  color: $Grey-Dark3;
+}
+.other-jobs-content {
+  margin-top: 24px;
+}
+.image-part-container {
+  margin: 8px 0px 32px;
+}
+.image-download-part {
+  width: 208px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  > label {
+    text-align: center;
+    height: auto;
+    min-height: 46px;
+    align-items: center;
+    display: flex;
+  }
+  > button {
+    width: 148px;
+  }
+}
+.details-info-form {
+  margin-top: 24px;
+}
+.details-info-select,
+.reject-info-select {
+  :global {
+    .ant-select-selector {
+      height: 48px !important;
+      border-radius: 12px !important;
+    }
+    .ant-select-clear {
+      display: none !important;
+    }
+  }
+}
+.reject-info-select {
+  width: 47% !important;
+}
+.details-info-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: $Grey-Dark5;
+  text-align: right;
+  margin-bottom: 8px;
+  margin-top: 24px;
+  width: 150px;
+}
+.details-info-btn {
+  margin: 40px auto 0px !important;
+  width: 343px;
+  height: 40px !important;
+}
+.details-confirm-btn {
+  width: 65% !important;
+  margin-bottom: 0px;
+  span {
+    font-family: $Medium !important;
+    font-size: 16px !important;
+  }
+}
+.details-cancel-btn {
+  width: calc(35% - 24px) !important;
+  margin-bottom: 0px;
+  span {
+    font-family: $Medium !important;
+    font-size: 16px !important;
+  }
+}
+
+.form-item {
+  display: flex;
+  > div {
+    width: 22.7% !important;
+    margin-left: 32px;
+  }
+}
+.details-info-form-item {
+  width: 22.7%;
+  margin-left: 32px;
+}
+.date-picker {
+  margin-top: 0px !important;
+  > div > input {
+    border-radius: 12px;
+  }
+  > div > span {
+    top: 12px;
+  }
+}
+.date-picker-error {
+  > div > input {
+    border: 1px solid $Notif-Red;
+  }
+}
+.date-picker-pad {
+  margin-top: -278px !important;
+}
+.details-info-text-area {
+  border-radius: 12px !important;
+  width: calc(100% - 8px);
+  font-size: 14px !important;
+  font-family: $Regular !important;
+  padding: 12px 16px !important;
+}
+.details-info-text-area::placeholder {
+  font-size: 14px !important;
+  font-family: $Regular !important;
+}
+.details-info-form-select {
+  width: 22.7%;
+  margin-bottom: 32px !important;
+}
+.details-status {
+  font-size: 14px !important;
+  padding: 8px 16px !important;
+  width: 150px !important;
+}
+.details-text-area {
+  margin-bottom: 0px;
+}
+.attention {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: right;
+  color: $Grey-Dark1;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+.attention-2 {
+  @extend .attention;
+  color: $Grey-Dark4;
+  margin-bottom: 8px;
+}
+.btn-part {
+  margin: 0px 24px;
+  width: 166px;
+  height: 40px;
+  img {
+    margin-left: 8px;
+  }
+}
+.upload-doc-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.details-info-card {
+  border: 1px solid $Grey-Dark2;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  padding: 16px 16px 0px;
+  margin: 4px 0px 16px;
+}
+@media (max-width: 1743px) {
+  .detail-info-wrapper > div,
+  .details-info-form-select,
+  .form-item,
+  .details-info-form-item {
+    width: 22%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .detail-info-wrapper > div,
+  .details-info-form-select,
+  .form-item,
+  .details-info-form-item {
+    width: 28%;
+  }
+}

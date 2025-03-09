@@ -1,0 +1,42 @@
+@import "../../../assets/styles/_Variables.scss";
+.ticket-list-search-form {
+  background-color: $White;
+  padding: 12px;
+  border: 1px solid $Grey-Light4;
+  border-radius: 12px;
+  margin: 16px 0px;
+}
+.ticket-list-search-form-item {
+  margin-left: 24px !important;
+}
+.ticket-list-search-btn {
+  margin-right: auto !important;
+  margin-left: 0px !important;
+}
+.ticket-list-search-btn > div > div > div > div {
+  display: inline-flex;
+}
+.ticket-list-search-customers-row {
+  margin-left: 8px;
+}
+.ticket-list-search-action {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+.ticket-list-search-action-btn {
+  margin-left: 32px;
+}
+.ticket-list-search-action-btn-last {
+  margin-left: 8px;
+}
+
+.ticket-list-search-btn-button {
+  padding: 8px 17px;
+}
+.ticket-list-search-input-icon {
+  padding: 3px 8px !important;
+}
+.style-of-quantity {
+  height: 32px;
+}

@@ -1,0 +1,177 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.login-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(162.84deg, #2b9570 11.8%, #236573 106.52%);
+  background-blend-mode: overlay;
+  mix-blend-mode: normal;
+}
+.login-form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.login-form-logo {
+  margin: 10% auto 4.25%;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+}
+.missing-logo {
+  width: calc(44% + 15px);
+  margin: 15% auto 4.25%;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+}
+.page-404-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    color: $White;
+    margin-right: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 26.798%;
+  margin: auto;
+  z-index: 100;
+}
+.login-form-item > div {
+  display: flex;
+  flex-direction: column;
+}
+.login-form-item {
+  input {
+    direction: ltr;
+  }
+}
+
+.login-input {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid $Grey-Dark1;
+  border-radius: 12px;
+  color: $White;
+  text-align: left;
+  height: 48px;
+  font-size: 16px;
+  direction: ltr;
+}
+.login-input::placeholder {
+  text-align: right;
+  color: $Grey-Light5;
+  font-family: Vazir-regular-FD;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.login-input:hover,
+.login-input:focus,
+.login-input:active {
+  border: 1px solid $Green-Light6 !important;
+  outline: none;
+  box-shadow: none;
+}
+
+.login-input > input {
+  background-color: transparent;
+}
+.login-input > input::placeholder {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: $Grey-Light5;
+}
+.login-form-item > div > div > label {
+  color: $Green-Light1 !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.login-password {
+  direction: ltr;
+  color: $White;
+  align-items: center;
+}
+.login-form-password {
+  margin-top: 12px;
+}
+.login-password > input {
+  direction: ltr;
+  text-align: left;
+  color: $White;
+}
+.login-password input,
+.login-input {
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus {
+    -webkit-text-fill-color: $White;
+    box-shadow: none;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}
+.login-submit {
+  width: 100%;
+  margin-top: 30px;
+  height: 48px;
+  border-radius: 12px;
+  color: $Logo-GreenDark !important;
+  z-index: 100;
+}
+.login-submit > span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Vazir-regular-FD;
+}
+.login-submit:hover,
+.login-submit:focus,
+.login-submit:active {
+  border-color: transparent !important;
+  box-shadow: none;
+  color: $Logo-GreenDark !important;
+}
+.login-backGround {
+  background-image: url("../../../assets/images/content/p98.svg");
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.login-backGround-bottom {
+  background-image: url("../../../assets/images/content/p99.svg");
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 750px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.page-404-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 26.798%;
+  margin: auto;
+  text-align: center;
+  h1,
+  h2 {
+    color: $Green-Light1;
+  }
+}
+.login-version {
+  position: fixed;
+  bottom: 5px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+}
+@media (max-width: 1190px) {
+  .login-form {
+    width: 40%;
+  }
+}

@@ -1,0 +1,54 @@
+.disable-service-modal-select {
+  > div {
+    width: 466px;
+    margin: auto;
+    text-align: right !important;
+    display: flex;
+    align-items: center;
+    label {
+      width: 466px;
+      text-align: right !important;
+      margin-bottom: 8px;
+      margin: auto;
+    }
+  }
+}
+.ready-reactions {
+  margin: auto !important;
+  width: 466px !important;
+  font-size: 16px;
+  > div {
+    height: 48px !important;
+    span {
+      input {
+        height: 48px !important;
+      }
+    }
+  }
+}
+.disable-service-modal-btn {
+  width: 343px;
+  margin-bottom: 0px;
+  :global {
+    .ant-form-item-control-input-content {
+      margin: 16px auto 0px !important;
+    }
+  }
+  .disable-service-modal-confirm-btn {
+    width: 65% !important;
+    span {
+      font-size: 16px;
+    }
+  }
+  .disable-service-modal-cancel-btn {
+    width: calc(35% - 24px) !important;
+    span {
+      font-size: 16px;
+    }
+  }
+}
+.disable-modal-note {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 32px;
+}

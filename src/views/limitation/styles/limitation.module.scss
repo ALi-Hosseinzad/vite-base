@@ -1,0 +1,277 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.limit-search-btn {
+  margin-right: auto !important;
+  margin-left: 0px !important;
+  & > div > div > div > div {
+    display: inline-flex;
+  }
+}
+.modalContentBox {
+  height: auto;
+  width: 343px;
+  box-shadow: 0px 0px 8px 0px #00000012;
+  margin: 0px auto;
+  padding: 16px;
+  p {
+    width: 343px;
+  }
+  input {
+    width: 311px;
+    height: 48px;
+  }
+}
+.totalDaily {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px !important;
+  span {
+    font-size: 12px;
+    font-weight: 400;
+    color: $Grey-Dark4;
+  }
+}
+.inputNumber {
+  text-align: left;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  &::placeholder {
+    text-align: right;
+  }
+}
+.bold {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color: $Grey-Dark5 !important;
+  margin: 0px 4px;
+}
+.numToLetter {
+  font-size: 12px;
+  font-weight: 400;
+  color: $Grey-Dark3;
+}
+.limitModalButton {
+  > div > div > div > div {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  .confirmBtn {
+    width: 222px;
+    display: flex;
+  }
+  .cancelBtn {
+    width: 97px;
+    display: flex;
+    margin-right: 24px;
+  }
+}
+.empty {
+  color: $Green-Light4;
+  padding: 150px 0;
+  font-size: 20px;
+  font-family: $Medium;
+}
+.limitation-search-input {
+  margin: 0px !important;
+}
+.table-placeholder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+  img {
+    cursor: default !important;
+  }
+}
+.customer-limitation-table-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 16px;
+  img:first-child {
+    margin-left: 16px;
+  }
+  span:first-child {
+    margin-left: 16px;
+  }
+}
+
+// add modal first step
+.add-limit-national-code-input {
+  width: 343px;
+  margin: 24px auto;
+}
+.add-limit-national-code-input__ {
+  height: 48px !important;
+  direction: ltr;
+}
+.add-limit-national-code-point {
+  width: fit-content;
+  margin: 0px auto;
+  font-family: $Regular;
+  color: $Grey-Dark5;
+  font-size: 14px;
+}
+.add-limit-buttons {
+  margin-bottom: 0px !important;
+}
+.add-limit-buttons > div > div > div > div {
+  margin-top: 16px !important;
+  .confirm-button {
+    width: 65%;
+    font-size: 16px !important;
+  }
+  .cancel-button {
+    width: calc(35% - 24px);
+    font-size: 16px !important;
+  }
+}
+
+// add modal second step
+.add-customer-modal-container {
+  width: 718px;
+  margin: 0px auto;
+}
+.add-customer-limit-modal-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  label {
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+  }
+  input {
+    direction: ltr;
+    border-radius: 12px;
+    border: 1px solid var(--grey-dark-1, #bdbdbd);
+    width: 343px;
+    height: 48px;
+    padding: 14px 16px;
+    &:focus {
+      border: 1px solid var(--logo-green-dark, #2b9570);
+      outline: none;
+    }
+  }
+}
+.add-customer-limit-error-input {
+  input {
+    border: 1px solid var(--notif-red, #d93434) !important;
+  }
+}
+.divider {
+  width: 100% !important;
+  margin: 8px auto 16px !important;
+}
+.add-customer-limit-row {
+  width: 718px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.add-customer-limit-modal-input {
+  height: 48px !important;
+}
+.add-customer-limit-modal-hint {
+  color: var(--grey-dark-4, #757575);
+  text-align: right;
+  font-size: 14px;
+  width: 718px;
+  margin-bottom: 40px;
+}
+.add-customer-limit-num-to-letter {
+  width: 343px;
+  color: var(--grey-dark-3, #888);
+  text-align: right;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.add-customer-limit-error {
+  width: 343px;
+  text-align: right;
+  font-size: 12px;
+  margin-top: 4px;
+  color: var(--notif-red, #d93434);
+}
+// delete modal
+.delete-modal-of-limitation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  > p {
+    margin: 0px auto 32px;
+    font-size: 16px;
+  }
+  > div {
+    display: flex;
+    align-items: center;
+    p {
+      margin: 0px;
+      font-size: 14px;
+    }
+    img {
+      margin-left: 4px;
+    }
+  }
+}
+.delete-modal-buttons {
+  display: flex;
+  width: 100%;
+  max-width: 343px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 40px;
+  .delete-modal-confirm-button {
+    width: 65%;
+    height: 40px;
+  }
+  .delete-modal-cancel-button {
+    width: calc(35% - 24px);
+    height: 40px;
+  }
+}
+.add-customer-limit-current-total {
+  color: var(--Grey-Dark4);
+  font-size: 12px;
+}
+.addBtn {
+  position: absolute;
+  left: 0;
+  top: -58px;
+  width: 122px;
+}
+.vip-customer-info {
+  input {
+    background-color: var(--Grey-Light2) !important;
+    text-align: end;
+  }
+  > span {
+    padding: 9px 8px !important;
+    span {
+      color: var(--Grey-Dark3) !important;
+    }
+  }
+  input {
+    padding: 9px 8px !important;
+  }
+  background-color: var(--Grey-Light2) !important;
+  min-height: 48px;
+  min-width: 343px;
+  border: none !important;
+  border-radius: 12px;
+}
+.vip-customer-info:focus,
+.vip-customer-info:hover,
+.vip-customer-info:active,
+.vip-customer-info:visited,
+.vip-customer-info:focus-visible {
+  background-color: var(--Grey-Light2);
+  border: 1px solid var(--Grey-Light2) !important;
+}
+.add-vip-customer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

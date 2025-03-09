@@ -1,0 +1,116 @@
+.edit-card-form {
+  margin: auto;
+  width: 343px;
+}
+.edit-card-form-item {
+  margin-bottom: 0px !important;
+}
+.edit-card-form-item > div > div {
+  padding-bottom: 4px !important;
+}
+.edit-card-form-input {
+  border: unset;
+  height: 48px !important;
+  font-size: 16px !important;
+  line-height: 26px !important;
+  padding-left: 16px !important;
+  border-radius: 12px !important;
+  background-color: var(--Grey-Light2) !important;
+}
+.edit-card-form-item {
+  :global {
+    .ant-form-item-row
+      > .ant-form-item-control
+      > .ant-form-item-control-input
+      > .ant-form-item-control-input-content
+      > .ant-input-affix-wrapper-status-error {
+      background: var(--Grey-Light2);
+      border: 1px solid var(--Notif-Red) !important;
+    }
+  }
+}
+.edit-card-form-input > input {
+  background-color: var(--Grey-Light2) !important;
+  text-align: end;
+}
+.edit-card-form-input:focus,
+.edit-card-form-input:hover,
+.edit-card-form-input:active,
+.edit-card-form-input:visited,
+.edit-card-form-input:focus-visible {
+  background-color: var(--Grey-Light2);
+  border: 1px solid var(--Grey-Light2) !important;
+}
+.edit-card-form-input > span:first-child {
+  margin-right: 8px !important;
+  background-color: var(--Grey-Light2) !important;
+}
+.edit-card-form-input > span:first-child > span {
+  height: unset !important;
+  color: var(--Grey-Dark3);
+  font-weight: 300 !important;
+}
+.edit-card-form-input::placeholder {
+  font-size: 16px !important;
+  line-height: 26px !important;
+}
+.edit-card-form-input-mobile {
+  text-align: end;
+}
+.edit-card-form-text {
+  color: var(--Grey-Dark3);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+}
+.edit-card-space {
+  width: 343px;
+  display: flex;
+  margin: 0px auto 40px;
+  align-items: flex-start;
+  > div > img {
+    cursor: default !important;
+  }
+}
+.edit-card-text {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  color: var(--Grey-Dark3);
+}
+.edit-card-form-btn {
+  padding: 11px 28.25px;
+}
+.success-edit-card {
+  margin: auto;
+  display: flex;
+  max-width: 343px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.success-edit-card-text {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 24px;
+  line-height: 26px;
+  margin-bottom: 24px;
+  color: var(--Logo-GreenDark);
+}
+.success-edit-card-btn {
+  width: 343px;
+  height: 40px;
+  margin-top: 32px;
+}
+.success-edit-card-username {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+  color: var(--Grey-Dark5);
+  & span {
+    margin-left: 4px;
+  }
+}

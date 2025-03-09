@@ -1,0 +1,30 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.answer-ticket-container {
+  background-color: $White;
+  padding: 28px 24px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 12px 0px #00000012;
+  position: fixed;
+  bottom: 28px;
+  width: calc(82.5% - 56px);
+  margin: auto 4px auto auto;
+}
+.sent-message {
+  width: 100%;
+  p {
+    text-align: center;
+    color: $Green-Dark1;
+    font-size: 16px;
+    margin: 0px;
+  }
+}
+.closed-message {
+  width: 100%;
+  p {
+    text-align: center;
+    color: $Grey-Dark3;
+    font-size: 16px;
+    margin: 0px;
+  }
+}

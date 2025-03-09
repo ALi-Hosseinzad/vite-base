@@ -1,0 +1,42 @@
+@import "../../assets/styles/_Variables.scss";
+
+.try-again-wrapper {
+  display: flex;
+  margin: 10% auto 0px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+  max-width: 500px;
+}
+.try-again-btn {
+  width: fit-content;
+  min-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+.try-again-text {
+  font-family: $Medium !important;
+  font-size: 16px !important;
+  margin: 16px auto 0px;
+  text-align: center;
+  color: $Grey-Dark4;
+  direction: ltr !important;
+}
+.try-again-confirm-btn {
+  width: 60%;
+  height: 40px;
+  span {
+    font-family: $Medium !important;
+    font-size: 16px !important;
+  }
+}
+.try-again-cancel-btn {
+  height: 40px;
+  width: calc(40% - 32px);
+  span {
+    font-family: $Medium !important;
+    font-size: 16px !important;
+  }
+}

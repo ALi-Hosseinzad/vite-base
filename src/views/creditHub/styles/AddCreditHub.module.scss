@@ -1,0 +1,256 @@
+@import "../../../assets//styles/_Variables.scss";
+
+.appSettings-row-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.delete-modal-appSettings {
+  width: 500px;
+  margin: auto;
+  background-color: $Grey-Light2;
+  border-radius: 16px;
+  padding: 16px;
+}
+.delete-modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 343px;
+  margin: 100px auto 0px;
+}
+.delete-modal-appSettings-text-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  min-height: 48px;
+  border-bottom: 1px solid $Grey-Light5;
+  :first-child {
+    color: $Grey-Dark3;
+  }
+}
+.delete-modal-appSettings :last-child {
+  border-bottom: unset !important;
+}
+.text {
+  margin: 32px auto;
+  text-align: center;
+  font-size: 16px;
+  max-width: 500px;
+}
+.delete-modal-confirm-button {
+  width: calc(70% - 24px);
+  height: 42px;
+  span {
+    font-family: $Medium;
+  }
+}
+.delete-modal-cancel-button {
+  width: 30%;
+  height: 42px;
+  span {
+    font-family: $Medium;
+  }
+}
+.formContainer {
+  border: none !important;
+  margin: 0px !important;
+}
+.form-items-container {
+  border: 1px solid $Grey-Light5;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+}
+.appSettingsEditButton {
+  margin: 32px auto 0px;
+  > div > div > div > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px !important;
+  }
+}
+.confirmBtn {
+  width: 222px;
+  display: flex;
+  margin-right: -24px;
+  height: 40px;
+}
+.cancelBtn {
+  width: 97px;
+  display: flex;
+  margin-right: 24px;
+  height: 40px;
+}
+.form-item {
+  width: 343px;
+}
+.inputModal,
+.inputModal2,
+.input-desc {
+  height: 48px !important;
+  border-radius: 12px !important;
+  font-size: 16px;
+  text-align: left;
+}
+.input-desc {
+  text-align: right !important;
+}
+.inputModal::placeholder {
+  text-align: right !important;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.date-picker {
+  margin-top: 0 !important;
+  input {
+    border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    -ms-border-radius: 12px !important;
+    -o-border-radius: 12px !important;
+  }
+}
+.row-queries {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 16px auto;
+  span {
+    margin-right: 4px;
+  }
+}
+.queries-title {
+  font-size: 16px;
+  color: $Grey-Dark4;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+.queries-button {
+  margin-left: 16px;
+}
+.province-select {
+  height: 48px !important;
+  > div {
+    height: 48px !important;
+    border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    -ms-border-radius: 12px !important;
+    -o-border-radius: 12px !important;
+    > span > input {
+      height: 48px !important;
+    }
+  }
+  :global {
+    .ant-select-selection-placeholder {
+      font-size: 16px;
+    }
+  }
+}
+.details-info-select {
+  width: 343px !important;
+  :global {
+    .ant-select-selector {
+      height: 48px !important;
+      border-radius: 12px !important;
+    }
+    .ant-select-clear {
+      display: none !important;
+    }
+  }
+}
+.upload-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title-queries {
+  font-size: 16px;
+  color: $Grey-Dark4;
+  text-align: center;
+  span {
+    font-size: 18px;
+    font-family: $Medium;
+    color: $Grey-Dark5;
+  }
+}
+.image-download-part {
+  width: 208px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  > label {
+    text-align: center;
+    height: auto;
+    min-height: 46px;
+    align-items: center;
+    display: flex;
+  }
+  > button {
+    width: 148px;
+  }
+}
+.register-steps-header {
+  margin: 32px auto !important;
+  width: calc(100% - 32px);
+  max-width: 1200px;
+  margin: auto;
+}
+.steps-content {
+  margin: auto;
+  padding: 24px;
+  max-width: 1200px;
+  border-radius: 12px;
+  width: calc(100% - 32px);
+  background-color: $White;
+  border: 1px solid $Grey-Dark1;
+}
+.list-customers-form {
+  padding: 12px;
+  margin: 16px 0px;
+  border-radius: 12px;
+  background-color: $White;
+  justify-content: space-between;
+  border: 1px solid $Grey-Light4;
+}
+.list-customers-btn {
+  margin-right: auto !important;
+  margin-left: 0px !important;
+}
+.list-customers-btn > div > div > div > div {
+  display: inline-flex;
+}
+.list-customers-btn-button {
+  padding: 8px 17px;
+}
+.input-number {
+  height: 48px !important;
+  border-radius: 12px !important;
+  background-color: transparent !important;
+  -webkit-border-radius: 12px !important;
+  -moz-border-radius: 12px !important;
+  -ms-border-radius: 12px !important;
+  -o-border-radius: 12px !important;
+  input {
+    padding: 0px;
+    height: 36px;
+    font-size: 16px !important;
+    text-align: left !important;
+  }
+  input::placeholder {
+    font-size: 14px !important;
+    text-align: right !important;
+  }
+  > div {
+    height: 36px !important;
+  }
+}

@@ -1,0 +1,53 @@
+@import "./_Variables.scss";
+
+.Toastify__toast {
+  border-radius: 12px;
+  min-height: 48px;
+  padding: 0px 8px;
+  min-width: 348px;
+}
+.Toastify__toast-theme--light.Toastify__toast--default {
+  background-color: aliceblue;
+  color: slategrey;
+  button {
+    color: slategray;
+    opacity: 1;
+  }
+}
+.Toastify__toast-theme--light.Toastify__toast--info {
+  background-color: azure;
+  color: blue;
+  button {
+    color: blue;
+    opacity: 1;
+  }
+}
+.Toastify__toast-theme--light.Toastify__toast--success {
+  background-color: $Green-Light3;
+  color: $Green-Dark1;
+  button {
+    color: $Green-Dark1;
+    opacity: 1;
+  }
+}
+.Toastify__toast-theme--light.Toastify__toast--warning {
+  background-color: $Narenji-Light1;
+  color: $Narenji-Light4;
+  button {
+    color: $Narenji-Light4;
+    opacity: 1;
+  }
+}
+.Toastify__toast-theme--light.Toastify__toast--error {
+  background-color: $Notif-Pink !important;
+  color: $Notif-Red;
+  button {
+    color: $Notif-Red;
+    opacity: 1;
+  }
+}
+.Toastify__close-button--light {
+  align-self: center;
+  display: flex;
+  text-align: center;
+}

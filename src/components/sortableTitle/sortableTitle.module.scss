@@ -1,0 +1,10 @@
+.rotate-sort-icon {
+  transform: rotate(180deg);
+}
+.title-with-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}

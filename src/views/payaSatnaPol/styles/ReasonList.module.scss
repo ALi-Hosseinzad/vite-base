@@ -1,0 +1,83 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.addBtn {
+  position: absolute;
+  left: 0;
+  top: -58px;
+  width: 88px;
+}
+.groups-search-bar-btn {
+  margin-right: auto !important;
+  margin-left: 0px !important;
+  & > div > div > div > div {
+    display: inline-flex;
+  }
+  button {
+    width: 79px !important;
+    height: 32px !important;
+  }
+}
+.record-status {
+  text-align: left;
+  padding: 12px 16px !important;
+}
+.add-modal {
+  width: 918px !important;
+}
+.form-edit-menu {
+  border: none !important;
+  margin: 0px 66px !important;
+  padding: 0px !important;
+}
+.switch-container {
+  width: 343px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border: 1px solid var(--Grey-Dark1);
+  border-radius: 12px;
+}
+.input-modal {
+  height: 48px !important;
+  border-radius: 12px !important;
+  font-size: 16px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px auto;
+  > div {
+    margin-bottom: 0px !important;
+    display: flex;
+    align-items: flex-end;
+  }
+}
+.row-2 {
+  @extend .row;
+  margin-top: 16px !important;
+  align-items: flex-start;
+}
+.chip-status {
+  width: 58px !important;
+}
+.edit-menu-buttons {
+  margin-bottom: 0px !important;
+  .menu-edit-modal-confirm-button {
+    width: 65%;
+    height: 40px;
+    span {
+      font-size: 16px;
+    }
+  }
+  .menu-edit-modal-cancel-button {
+    width: calc(35% - 24px);
+    height: 40px;
+    span {
+      font-size: 16px;
+    }
+  }
+}
+.wrapper {
+  margin-top: 16px;
+}

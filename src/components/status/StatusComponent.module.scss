@@ -1,0 +1,28 @@
+.mainClass {
+  background-blend-mode: overlay;
+  mix-blend-mode: normal;
+  border-radius: 6px;
+  text-align: center;
+  width: 100px;
+  padding: 4px 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  display: flex;
+  justify-content: center;
+}
+.success {
+  @extend .mainClass;
+  background-color: var(--Green-Light3);
+  color: var(--Logo-GreenDark);
+}
+.pending {
+  @extend .mainClass;
+  background-color: var(--Narenji-Light1);
+  color: var(--Narenji-Light3);
+}
+.rejected {
+  @extend .mainClass;
+  background-color: var(--Notif-Pink);
+  color: var(--Notif-Red);
+}

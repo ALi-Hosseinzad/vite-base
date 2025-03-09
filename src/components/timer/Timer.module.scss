@@ -1,0 +1,28 @@
+.show-counter {
+  display: flex;
+  direction: ltr;
+  align-items: center;
+  justify-content: center;
+  min-width: 343px;
+  margin: auto;
+  color: var(--Narenji-Dark1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+}
+.show-counter-text {
+  margin-left: 4px;
+}
+.countdown-danger {
+  color: var(--Notif-Red);
+}
+.expired-notice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 343px;
+  margin: auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+}

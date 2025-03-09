@@ -1,0 +1,191 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.servicesContainer {
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  > div {
+    display: flex;
+    margin-left: 18px;
+    flex-wrap: wrap;
+  }
+  p {
+    line-height: 19px;
+    margin: 0px !important;
+    color: $Logo-GreenDark;
+    cursor: pointer;
+  }
+  .wrapContainer {
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+  }
+}
+.branches-search-bar-btn {
+  margin-right: auto !important;
+  margin-left: 0px !important;
+  & > div > div > div > div {
+    display: inline-flex;
+  }
+}
+.modalDetails {
+  border: 1px solid $Grey-LineBack;
+  border-radius: 12px;
+  padding: 0px 16px;
+  margin: auto;
+  max-width: 718px;
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $Grey-LineBack;
+    padding: 8px 0px !important;
+    font-size: 14px;
+    :first-child {
+      font-weight: 300 !important;
+    }
+    :last-child {
+      font-weight: 400;
+      text-align: left;
+      justify-content: flex-end !important;
+      max-width: 320px;
+    }
+    p {
+      margin: 0px !important;
+    }
+  }
+  :last-child {
+    border: none;
+  }
+  .modalServices {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    max-width: 60% !important;
+  }
+}
+.modalBtn {
+  margin: auto;
+  width: 343px;
+  margin-top: 32px;
+  height: 40px;
+}
+.modalForm {
+  padding-top: 0;
+  margin: 0px !important;
+  border: none !important;
+  max-height: 710px !important;
+  min-height: 530px !important;
+  overflow: auto;
+  padding-bottom: 8px !important;
+  scrollbar-width: 12px; /* Firefox */
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $Grey-Dark1;
+    border-radius: 2px;
+  }
+  > div > div > div > label {
+    align-items: center !important;
+    margin-left: 15px !important;
+  }
+  > div > div > div > label > span > span {
+    border: 1px solid $Logo-GreenDark !important;
+    &::after {
+      background-color: $Logo-GreenDark !important;
+    }
+  }
+}
+.textArea {
+  width: 343px !important;
+  border: 1px solid $Grey-Dark1;
+  border-radius: 12px;
+  padding: 8px;
+  &:focus {
+    outline: none !important;
+    border: 1px solid $Logo-GreenDark !important;
+  }
+  &::placeholder {
+    color: $Grey-Dark1 !important;
+  }
+}
+.servicesTag {
+  display: flex;
+  margin: 16px 4.16%;
+  flex-wrap: wrap;
+}
+.inputModal {
+  height: 48px !important;
+  border-radius: 12px !important;
+
+  &::placeholder {
+    font-size: 16px;
+  }
+}
+.inputModal-mr2 {
+  margin-right: 16px !important;
+}
+.inputNumber {
+  text-align: left !important;
+}
+
+.selectModal div {
+  border-radius: 12px !important;
+  height: 48px !important;
+}
+.newBranchModal {
+  max-height: 780px !important;
+  min-height: 600px !important;
+  padding: 0px !important;
+}
+.branchModalButton {
+  margin-bottom: 0 !important;
+  > div > div > div > div {
+    display: flex;
+    justify-content: center;
+  }
+  .confirmBtn {
+    width: 222px;
+    display: flex;
+    margin-right: -24px;
+    height: 40px;
+  }
+  .cancelBtn {
+    width: 97px;
+    display: flex;
+    margin-right: 24px;
+    height: 40px;
+  }
+}
+.province-select {
+  height: 48px !important;
+  > div {
+    height: 48px !important;
+    > span > input {
+      height: 48px !important;
+    }
+  }
+  :global {
+    .ant-select-selection-placeholder {
+      font-size: 16px;
+    }
+  }
+}
+.service-title {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: $Grey-Dark5;
+  margin-bottom: 8px;
+}
+.textAreaNumber {
+  text-align: left !important;
+  &::placeholder {
+    text-align: right !important;
+    font-size: 16px;
+  }
+}
+.index-branch {
+  color: $Grey-Dark3;
+}

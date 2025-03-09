@@ -1,0 +1,88 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.modal-notice {
+  display: flex;
+  width: 343px;
+  margin: auto;
+  p {
+    color: $Grey-Dark3;
+    margin-right: 4px;
+    text-align: center;
+  }
+}
+.modal-form {
+  display: flex;
+  justify-content: center;
+  > form > div {
+    margin-bottom: 13px !important;
+  }
+  .modal-mobile {
+    height: 48px;
+    text-align: left;
+    font-size: 16px;
+    &::placeholder {
+      font-size: 16px;
+    }
+  }
+  .modal-buttons {
+    width: 343px;
+    margin-bottom: 8px;
+  }
+  .modal-buttons > div > div > div > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .modal-buttons > div > div > div > div > button {
+    height: 40px;
+  }
+  .modal-button-confirm {
+    padding: 11px 96px;
+    width: 60%;
+  }
+  .modal-button-cancel {
+    padding: 11px 18px;
+    width: calc(40% - 24px);
+  }
+}
+.success-send-to-customer {
+  display: flex;
+  flex-direction: column;
+  max-width: 343px;
+  margin: 16px auto 0px;
+  justify-content: center;
+  align-items: center;
+}
+.success-send-to-customer-text {
+  color: var(--Logo-GreenDark);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.success-send-to-customer-btn {
+  width: 343px;
+  margin-top: 40px;
+  height: 40px;
+}
+.success-send-to-customer-username {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--Grey-Dark5);
+  & span {
+    margin-left: 4px;
+  }
+}
+.success-recover-password-text {
+  color: var(--Grey-Dark5);
+  margin: 24px auto -16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: vazir-medium-FD;
+}

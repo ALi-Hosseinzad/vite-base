@@ -1,0 +1,15 @@
+@import "../../assets/styles/_Variables.scss";
+
+.main-content {
+  padding: 24px;
+  background: $Grey-Light1;
+  background-blend-mode: overlay;
+  mix-blend-mode: normal;
+  border-radius: 4px;
+  height: calc(100% - 113.5px);
+}
+@-moz-document url-prefix() {
+  .main-content {
+    height: calc(100% - 66.5px);
+  }
+}

@@ -1,0 +1,14 @@
+@import "../../assets/styles/_Variables.scss";
+
+.list-form {
+  background-color: $White;
+  padding: 12px;
+  border: 1px solid $Grey-Light4;
+  border-radius: 12px;
+  margin: 16px 0px;
+}
+@media (max-width: 1200px) {
+  .list-form > div {
+    margin-top: 12px;
+  }
+}

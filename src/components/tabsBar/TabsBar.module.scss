@@ -1,0 +1,35 @@
+@import "../../assets/styles/_Variables.scss";
+
+.tabsContainerDefault {
+  :global {
+    ::selection {
+      background: $Logo-GreenDark !important;
+    }
+    .ant-tabs-tab {
+      width: auto;
+      min-width: 164px;
+      justify-content: center;
+      margin: 0px !important;
+      color: $Grey-Dark4;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0px;
+    }
+    .ant-tabs-nav {
+      margin-bottom: 0px !important;
+    }
+    .ant-tabs-tab-active .ant-tabs-tab-btn {
+      color: $Logo-GreenDark !important;
+    }
+    .ant-tabs-ink-bar {
+      background: $Logo-GreenDark;
+    }
+    .ant-tabs-top > .ant-tabs-nav::before,
+    .ant-tabs-bottom > .ant-tabs-nav::before,
+    .ant-tabs-top > div > .ant-tabs-nav::before,
+    .ant-tabs-bottom > div > .ant-tabs-nav::before {
+      border-color: $Grey-Light4 !important;
+    }
+  }
+}

@@ -1,0 +1,88 @@
+@import "../../assets/styles/_Variables.scss";
+
+.first-message {
+  display: block;
+  width: 718px;
+  height: auto;
+  flex-shrink: 0;
+}
+.first-message-main-part {
+  padding: 12px;
+  background-color: $Green-Light3;
+  background-blend-mode: overlay;
+  border-radius: 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.first-message-action-part {
+  display: block;
+  position: relative;
+}
+.more-hight {
+  height: 120px;
+}
+.first-message-more {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: $Green-Light5;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.first-message-text {
+  margin: 0px;
+  color: $Green-Dark2;
+  text-align: justify;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  word-wrap: break-word;
+  width: 662px;
+  height: auto;
+  -moz-transition: height 0.9s;
+  -ms-transition: height 0.9s;
+  -o-transition: height 0.9s;
+  -webkit-transition: height 0.9s;
+  transition: height 0.9s;
+  white-space: pre-line;
+}
+.ellipse-first-message-text {
+  overflow: hidden;
+  -webkit-line-clamp: 5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  text-overflow: ellipsis;
+}
+.first-message-second-part {
+  display: flex;
+  justify-content: space-between;
+}
+.first-message-second-part-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.first-message-status {
+  color: $Logo-GreenLight;
+  text-align: right;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-right: 12px;
+}
+.first-message-date {
+  color: $Grey-Dark2;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 12px;
+  margin-top: 2px;
+}

@@ -1,0 +1,58 @@
+@import "../../../assets/styles/_Variables.scss";
+.list-customer-pagination {
+  color: $Grey-Dark3;
+}
+.list-customers-form {
+  background-color: $White;
+  padding: 12px;
+  border: 1px solid $Grey-Light4;
+  border-radius: 12px;
+  margin: 16px 0px;
+}
+.list-customers-form-item {
+  margin-left: 24px !important;
+}
+.list-customers-btn {
+  margin-right: auto !important;
+  margin-left: 0px !important;
+}
+.list-customers-btn > div > div > div > div {
+  display: inline-flex;
+}
+.list-customers-customers-row {
+  margin-left: 8px;
+}
+.list-customers-action {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+.list-customers-action-btn {
+  margin-left: 32px;
+}
+.list-customers-action-btn-last {
+  margin-left: 8px;
+}
+
+.list-customers-btn-button {
+  padding: 8px 17px;
+}
+.list-customers-input-icon {
+  padding: 3px 8px !important;
+}
+.default-cursor i {
+  cursor: default !important;
+}
+.column-customer-width {
+  width: calc(35% - 92px);
+}
+.table-placeholder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+  img {
+    cursor: default !important;
+  }
+}

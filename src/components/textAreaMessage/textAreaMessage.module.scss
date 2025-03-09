@@ -1,0 +1,133 @@
+@import "../../assets/styles/_Variables.scss";
+
+.text-message-note-text {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 32px);
+  margin: 8px auto auto;
+  p {
+    margin-bottom: 8px !important;
+  }
+}
+.text-message-note-text div {
+  display: flex;
+  align-items: center;
+}
+.text-message-note-text p {
+  margin: 0px;
+}
+.text-message-note-text div p {
+  color: $Green-Dark1;
+  font-family: $Medium;
+  cursor: pointer;
+  margin: 0px;
+}
+.text-message-attachment-name {
+  text-overflow: ellipsis;
+  max-width: 260px;
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.text-message-attachment {
+  background-color: $Green-Light3;
+  height: 20px;
+  font-size: 12px;
+  display: flex;
+  border-radius: 4px;
+  padding: 0px 5px 0px 5px;
+}
+.text-message-attachment img {
+  width: 16px;
+  height: 16px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+.text-message-note-attach {
+  cursor: pointer !important;
+  height: 32px;
+  input {
+    width: 115px;
+    height: 32px;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+.text-message-note {
+  width: calc(100% - 32px);
+  margin: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  textarea::placeholder {
+    font-size: 16px;
+    color: $Grey-Dark1;
+  }
+}
+.text-message-note textarea {
+  border: 1px solid $Grey-Dark1;
+  border-radius: 12px;
+  background-color: transparent;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 82px;
+  padding: 8px 48px;
+  resize: none;
+  font-size: 16px;
+  display: block;
+}
+.text-message-note textarea:focus {
+  border: 1px solid $Green-Dark1;
+  outline: none;
+}
+.text-message-note-top {
+  height: 23px;
+  margin-bottom: 4px;
+}
+.note-span {
+  text-align: right;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 4px 16px 0px 0px;
+}
+.error-note-counter {
+  @extend .note-span;
+  color: $Notif-Red !important;
+}
+.note-counter {
+  @extend .note-span;
+  color: $Grey-Dark1;
+}
+.text-message-submit-btn {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 32px;
+  height: 32px;
+  background-color: $Green-Dark1;
+  border-radius: 8px;
+  border: none;
+  color: $White;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: $Medium;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-message-disabled-submit-btn {
+  @extend .text-message-submit-btn;
+  background-color: $Green-Light4;
+  background-blend-mode: overlay;
+  cursor: default !important;
+}
+.text-message-container {
+  margin-top: -20px;
+}

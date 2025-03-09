@@ -1,0 +1,11 @@
+.print {
+  direction: rtl;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 100%;
+}
+.indicator {
+  text-align: center;
+  color: var(--Logo-GreenDark);
+}

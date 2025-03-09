@@ -1,0 +1,19 @@
+.btnFormItem {
+  width: 343px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btnFormItem > div > div > div > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btnFormItem > div > div > div > div > button {
+  height: 40px;
+}
+.btnFormItem > div > div > div > div > button:first-child {
+  padding: 11px 96.365px;
+}

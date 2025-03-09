@@ -1,0 +1,20 @@
+.modal {
+  :global {
+    .ant-modal-content {
+      .ant-modal-header {
+        .ant-modal-title {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 29px;
+          color: var(--Grey-Dark5);
+        }
+      }
+      .ant-modal-body {
+        max-height: calc(80vh - 60px);
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    }
+  }
+}

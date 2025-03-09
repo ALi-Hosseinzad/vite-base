@@ -1,0 +1,14 @@
+<svg id="visible" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-2{fill:#308a48}
+        </style>
+    </defs>
+    <path id="Rectangle_18436" data-name="Rectangle 18436" style="fill:none" d="M0 0h20v20H0z"/>
+    <g id="Group_2832" data-name="Group 2832" transform="translate(2.583 4.979)">
+        <g id="Group_2832-2" data-name="Group 2832">
+            <path id="Path_4367" data-name="Path 4367" class="cls-2" d="M10.472 18.7a8.513 8.513 0 0 1-7.433-4.617.822.822 0 0 1 0-.808 8.513 8.513 0 0 1 7.433-4.615 8.513 8.513 0 0 1 7.433 4.617.822.822 0 0 1 0 .808 8.519 8.519 0 0 1-7.433 4.615zm-5.733-5.023a6.8 6.8 0 0 0 5.733 3.358 6.777 6.777 0 0 0 5.733-3.358 6.8 6.8 0 0 0-5.733-3.358 6.8 6.8 0 0 0-5.733 3.358z" transform="translate(-2.932 -8.66)"/>
+            <path id="Path_4368" data-name="Path 4368" class="cls-2" d="M11.515 16.54a2.325 2.325 0 1 1 2.325-2.325 2.326 2.326 0 0 1-2.325 2.325zm0-2.983a.658.658 0 1 0 .658.658.66.66 0 0 0-.658-.658z" transform="translate(-3.975 -9.198)"/>
+        </g>
+    </g>
+</svg>

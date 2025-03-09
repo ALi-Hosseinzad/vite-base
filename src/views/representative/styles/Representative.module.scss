@@ -1,0 +1,229 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.account-search-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  .ant-form-item {
+    width: 70%;
+  }
+  > div:first-child {
+    margin-bottom: 0px !important;
+  }
+}
+.account-search-bar-input {
+  width: 100%;
+}
+.account-search-bar-btn > div > div > div > div {
+  display: flex !important;
+}
+.account-search-btn {
+  height: 32px !important;
+  width: 80px;
+}
+.without_representative {
+  background-color: $Grey-Light3;
+  color: $Grey-Dark3;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+.edit-card-form {
+  margin: auto;
+  width: 466px;
+}
+.acc-number {
+  width: 466px;
+  background-color: $Grey-Back;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin: 12px auto 0 auto;
+  p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $Grey-Dark5;
+  }
+}
+.acc-number2 {
+  @extend .acc-number;
+  margin: 24px auto 0px;
+  span {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: $Grey-Dark3;
+  }
+}
+.edit-card-form-btn {
+  width: 97px;
+}
+.edit-card-form-item {
+  margin-bottom: 0px !important;
+  margin-top: 24px;
+}
+.edit-card-form-item > div > div {
+  padding-bottom: 4px !important;
+}
+.edit-card-form-input {
+  width: 466px;
+  height: 48px !important;
+  border-radius: 12px !important;
+  font-size: 16px !important;
+  line-height: 26px !important;
+  padding-left: 16px !important;
+  direction: ltr;
+}
+.edit-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  display: block;
+}
+.edit-card-space {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center !important;
+  > div > img {
+    cursor: default !important;
+  }
+}
+.row {
+  display: flex;
+  width: 343px;
+  margin: 0 auto 18px auto;
+  justify-content: space-between;
+  font-size: 16px;
+  color: $Grey-Dark5;
+  :first-child {
+    color: $Grey-Dark4;
+    font-size: 14px;
+  }
+  p {
+    margin: 0;
+  }
+}
+.warning-dismissal {
+  text-align: center;
+  font-size: 16px;
+  color: $Grey-Dark5;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+.warning-dismissal2 {
+  @extend .warning-dismissal;
+  margin-top: 0px;
+}
+.success-edit-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 343px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.success-edit-card-text {
+  color: $Logo-GreenDark;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.success-edit-card-btn {
+  width: 343px;
+  margin-top: 32px;
+  height: 40px;
+}
+.success-edit-card-username {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+  color: $Grey-Dark5;
+  & span {
+    margin-left: 4px;
+  }
+}
+.confirm-card-form-btn {
+  width: 222px !important;
+}
+.tabs {
+  :global {
+    .ant-tabs-nav .ant-tabs-tab {
+      min-width: 210px;
+    }
+  }
+}
+.table-main {
+  :global {
+    .ant-table-tbody > tr td:last-child {
+      padding: 8px 0px !important;
+    }
+  }
+}
+.expanded-table {
+  max-width: 99%;
+  :global {
+    .ant-table-fixed-header {
+      margin-left: 0px !important;
+    }
+    .ant-table-container table > thead > tr:first-child th:first-child {
+      border-radius: unset !important;
+    }
+    .ant-table.ant-table-rtl {
+      margin-right: 0px !important;
+    }
+    .ant-table-container table > thead > tr:first-child th:last-child {
+      border-radius: unset !important;
+    }
+    .table-wrapper .ant-spin-nested-loading .ant-spin-container .ant-table .ant-table-container .ant-table-header {
+      border-radius: unset !important;
+    }
+    .ant-table-expanded-row .ant-table-tbody > tr:last-child > td {
+      border-bottom: 1px solid $Grey-Light4;
+    }
+  }
+}
+.check-box-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  width: 343px;
+}
+.check-box {
+  > span:last-child {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: $Grey-Dark5;
+    background-blend-mode: overlay;
+  }
+  :global {
+    .ant-checkbox .ant-checkbox-inner {
+      width: 16px !important;
+      height: 16px !important;
+      border: 2px solid $Logo-GreenDark;
+      border-radius: 2px;
+    }
+  }
+}
+.info-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: $Grey-Dark5;
+  margin: 32px auto 24px;
+}

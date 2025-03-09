@@ -1,0 +1,24 @@
+@import "../../assets/styles/_Variables.scss";
+.want-to-logout {
+  width: 100%;
+  text-align: center;
+  font-family: $Regular;
+  font-size: 16px;
+  color: $Grey-Dark5;
+  margin: 0px auto 32px;
+}
+.logout-modal-buttons {
+  display: flex;
+  width: 100%;
+  max-width: 343px;
+  justify-content: space-between;
+  margin: auto;
+  .logout-modal-confirm-button {
+    width: 65%;
+    height: 40px;
+  }
+  .logout-modal-cancel-button {
+    width: calc(35% - 24px);
+    height: 40px;
+  }
+}

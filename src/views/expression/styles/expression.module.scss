@@ -1,0 +1,111 @@
+.expression-table-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  i {
+    margin: 0px 8px;
+  }
+}
+.expression-search-bar-btn {
+  margin-left: 0px !important;
+  margin-right: auto !important;
+  & > div > div > div > div {
+    display: inline-flex;
+  }
+}
+
+// add modal styles
+.expression-form-modal {
+  border: none !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px !important;
+  > div:nth-child(2) {
+    margin: 16px 0px;
+  }
+}
+.expression-text-in-modal {
+  height: 48px !important;
+  border-radius: 12px;
+  &::placeholder {
+    font-size: 16px !important;
+  }
+}
+.expression-selection-in-modal {
+  height: 48px !important;
+  > div {
+    border-radius: 12px !important;
+    height: 48px !important;
+    > span:nth-child(2) {
+      font-size: 16px !important;
+    }
+  }
+}
+.expression-button {
+  margin-bottom: 0px;
+  margin-top: 64px;
+  > div > div > div > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  .confirmBtn {
+    width: 222px;
+    display: flex;
+    margin-right: -24px;
+    height: 40px;
+  }
+  .cancelBtn {
+    width: 97px;
+    display: flex;
+    margin-right: 24px;
+    height: 40px;
+  }
+}
+
+// delete modal styles
+.delete-modal {
+  > div > div:nth-child(3) {
+    padding-top: 0px !important;
+  }
+}
+.expression-delete-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .expression-note-delete-modal {
+    width: 422px;
+    text-align: center;
+    margin-bottom: 40px;
+    > span {
+      font-family: var(--Bold);
+      font-size: 16px;
+    }
+  }
+}
+.expression-delete-modal-buttons {
+  display: flex;
+  width: 100%;
+  max-width: 343px;
+  justify-content: space-between;
+  margin: auto;
+  span {
+    font-size: 16px !important;
+  }
+  .expression-delete-modal-confirm-button {
+    width: 65%;
+    height: 40px;
+  }
+  .expression-delete-modal-cancel-button {
+    width: calc(35% - 24px);
+    height: 40px;
+  }
+}
+.cursor-permission {
+  cursor: default !important;
+  i {
+    cursor: default !important;
+  }
+}

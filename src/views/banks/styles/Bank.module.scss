@@ -1,0 +1,64 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.account-search-bar-input {
+  width: 100%;
+}
+.bank-search-bar-btn {
+  margin-left: 0px !important;
+  margin-right: auto !important;
+  & > div > div > div > div {
+    display: inline-flex;
+  }
+}
+.bankModal {
+  width: 343px;
+  margin: auto;
+}
+.inputModal {
+  height: 48px !important;
+  border-radius: 12px !important;
+  &::placeholder {
+    font-size: 16px !important;
+  }
+}
+.inputModal-number {
+  height: 48px !important;
+  border-radius: 12px !important;
+  text-align: left;
+  &::placeholder {
+    font-size: 16px !important;
+  }
+}
+.modalButton {
+  margin-top: 40px;
+  margin-bottom: 0;
+  > div > div > div > div {
+    display: flex;
+    justify-content: center;
+  }
+  .confirmBtn {
+    height: 40px;
+    width: 222px;
+    display: flex;
+    span {
+      font-size: 16px !important;
+    }
+  }
+  .cancelBtn {
+    height: 40px;
+    width: 97px;
+    display: flex;
+    margin-right: 24px;
+    span {
+      font-size: 16px !important;
+    }
+  }
+}
+.list-banks-pagination {
+  color: $Grey-Dark3;
+}
+.edit-switch {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 16px;
+}

@@ -1,0 +1,51 @@
+@import "../../../assets/styles/_Variables.scss";
+.chips-of-services-page {
+  margin-right: 0px !important;
+  > span {
+    width: 58px;
+  }
+}
+.services-search-btn {
+  margin-right: auto !important;
+  margin-left: 0px !important;
+}
+.services-search-btn > div > div > div > div {
+  display: inline-flex;
+}
+.services-search-form-item {
+  margin-left: 24px !important;
+}
+.services-table {
+  > div > div > div > div > div > table > tbody > tr {
+    background-color: $White !important;
+  }
+  :global {
+    .ant-table-row {
+      outline: 1px solid $Grey-Light3 !important;
+    }
+    .ant-table-cell-with-append {
+      display: flex;
+      align-items: center;
+    }
+    .ant-table-body {
+      max-height: unset !important;
+    }
+  }
+}
+.services-modals {
+  :global {
+    .ant-modal-body {
+      padding-top: 0px !important;
+    }
+  }
+}
+.services-table-cell {
+  color: $Grey-Dark2 !important;
+}
+
+.services-table-status-chip {
+  margin-right: 0px !important;
+  > span {
+    width: 100px;
+  }
+}

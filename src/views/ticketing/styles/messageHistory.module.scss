@@ -1,0 +1,88 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.second-line {
+  border-left: 1px solid $Grey-Light3;
+  width: 50%;
+  height: 40px;
+  margin-top: -16px;
+}
+.text-section {
+  display: block;
+  justify-content: center;
+  margin: 30px auto 0px;
+  width: 718px;
+}
+.text-section-second {
+  @extend .text-section;
+  overflow: scroll;
+}
+.text-section-second-scroll-textarea {
+  height: calc(100vh - 450px);
+}
+.text-section-second-scroll-closed {
+  height: calc(100vh - 300px);
+}
+.text-section-second-scroll-textarea-with-note {
+  height: calc(100vh - 534px);
+}
+.text-section-second-scroll-closed-with-note {
+  height: calc(100vh - 430px);
+}
+.row-bg-gray {
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 718px;
+  background-color: $Grey-Back;
+  border-radius: 12px;
+  margin: 0px auto 14px;
+  padding: 11px 16px;
+  p {
+    margin: 0px;
+    font-size: 16px;
+  }
+  :first-child {
+    color: $Grey-Dark3;
+  }
+  :nth-child(2) {
+    color: $Grey-Dark5;
+  }
+}
+.title {
+  font-size: 16px !important;
+  font-family: $Medium !important;
+  color: $Green-Dark3 !important;
+}
+.channel {
+  font-size: 16px !important;
+  font-family: $Medium !important;
+  color: $Green-Dark3 !important;
+}
+.version {
+  font-size: 16px !important;
+  font-family: $Medium !important;
+  color: $Green-Dark3 !important;
+}
+.info {
+  font-size: 16px !important;
+  color: $Green-Dark3 !important;
+}
+.supports-note {
+  background-color: #fff;
+  margin-top: 16px;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid $Green-Light4;
+  height: fit-content;
+  p {
+    &:first-child {
+      color: $Grey-Dark3;
+    }
+    &:last-child {
+      word-wrap: break-word;
+      white-space: pre-line;
+    }
+  }
+}

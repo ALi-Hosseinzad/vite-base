@@ -1,0 +1,19 @@
+@import "../../assets/styles/_Variables.scss";
+
+.checkbox-component {
+  :global {
+    .ant-checkbox-checked {
+      .ant-checkbox-input {
+        background: $Logo-GreenLight;
+        background-blend-mode: overlay;
+        mix-blend-mode: normal;
+      }
+    }
+  }
+}
+.checkbox-component > span:last-child {
+  color: $White;
+}
+.checkbox-component > span:last-child:hover {
+  background-color: $Logo-GreenLight !important;
+}

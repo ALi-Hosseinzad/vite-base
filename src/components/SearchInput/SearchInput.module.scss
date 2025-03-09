@@ -1,0 +1,41 @@
+@import "../../assets/styles/_Variables.scss";
+.searchInput > span > span:first-child > input {
+  font-size: 12px;
+  line-height: 19px;
+}
+.searchInput > span > span:first-child {
+  align-items: center;
+  border: 1px solid $Grey-Dark1;
+  padding: 4px 8px;
+}
+.searchInput > span:hover {
+  border-color: $Green-Dark2 !important;
+}
+.searchInput > span:hover > span:first-child {
+  border-color: $Green-Dark2 !important;
+  outline: none !important;
+}
+.searchInput > span:focus > span:first-child {
+  border-color: $Green-Dark2 !important;
+  border-right-color: $Green-Dark2 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.searchInput > span:focus > span:first-child {
+  border-color: $Green-Dark2 !important;
+  border-right-color: $Green-Dark2 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.searchInput > span:active > span:first-child {
+  border-color: $Green-Dark2 !important;
+  border-right-color: $Green-Dark2 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.searchInput > span > span:first-child {
+  border-radius: 8px !important;
+}
+.searchInput > span > span:last-child {
+  display: none !important;
+}

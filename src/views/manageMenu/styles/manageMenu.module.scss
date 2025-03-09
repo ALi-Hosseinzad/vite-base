@@ -1,0 +1,130 @@
+.custom-chip-for-enable-manu {
+  width: 58px !important;
+  margin-right: 0px !important;
+  border: 0.3px solid var(--Logo-GreenDark);
+  span {
+    font-size: 12px;
+    font-family: var(--Medium) !important;
+    width: 58px !important;
+  }
+}
+.custom-red-chip-for-enable-manu {
+  width: 58px !important;
+  margin-right: 0px !important;
+  border: 0.3px solid var(--Notif-Red);
+  span {
+    font-size: 12px;
+    font-family: var(--Medium) !important;
+    width: 58px !important;
+  }
+}
+.manage-menu-search-btn {
+  margin-right: auto !important;
+  margin-left: 0px !important;
+}
+.manage-menu-search-btn > div > div > div > div {
+  display: inline-flex;
+}
+
+.cursor-permission {
+  cursor: default !important;
+}
+.sort-menu-modal {
+  :global {
+    .ant-modal-body {
+      padding-top: 0px;
+    }
+  }
+}
+
+// table
+.manage-menu-table {
+  :global {
+    .ant-table-cell-fix-left {
+      width: 90px !important;
+    }
+  }
+  > div > div > div > div > div:nth-child(2) {
+    max-height: 630px !important;
+  }
+}
+
+// sort-modal
+.sort-menu-modal {
+  :global {
+    .ant-modal-body {
+      padding-top: 0px;
+    }
+  }
+}
+.sort-menu-modal-width {
+  width: 718px;
+  margin: 0px auto;
+}
+.sort-menu-modal-top-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  flex-direction: column;
+  align-items: center;
+}
+.sort-menu-modal-top-detail {
+  width: 720px;
+  height: 48px;
+  background-color: var(--Grey-Back);
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  padding: 11px 16px;
+  justify-content: space-between;
+  &:first-child {
+    margin-bottom: 24px;
+  }
+  span:first-child {
+    color: var(--Grey-Dark3);
+  }
+}
+.sort-menu-modal-buttons {
+  width: 343px;
+  margin: 40px auto 0px;
+  display: flex;
+  justify-content: space-between;
+  button {
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    &:disabled {
+      background-color: var(--Green-Light4) !important;
+      color: var(--White) !important;
+      cursor: default;
+    }
+    &:first-child {
+      width: 222px;
+      background-color: var(--Logo-GreenDark);
+      color: var(--White);
+    }
+    &:last-child {
+      width: 97px;
+      border: 1px solid var(--Logo-GreenDark);
+      color: var(--Logo-GreenDark);
+      background-color: var(--White);
+    }
+  }
+}
+.table-placeholder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+  img {
+    cursor: default !important;
+  }
+}
+// search form
+.manage-menu-search-form-item {
+  margin-left: 24px !important;
+}

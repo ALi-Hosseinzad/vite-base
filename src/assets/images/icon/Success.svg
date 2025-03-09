@@ -1,0 +1,18 @@
+<svg id="transaction_success" data-name="transaction success" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #54bb35;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3886" data-name="Group 3886" transform="translate(2.667 2.667)">
+    <path id="Path_4779" data-name="Path 4779" class="cls-1" d="M11.941,17.548h0a1.377,1.377,0,0,1-.947-.387L7.888,14.054a1.329,1.329,0,0,1,1.88-1.88l2.173,2.173,5.28-5.28a1.329,1.329,0,1,1,1.88,1.88l-6.227,6.227A1.309,1.309,0,0,1,11.941,17.548Z" transform="translate(-0.168 0.226)"/>
+    <path id="Path_4780" data-name="Path 4780" class="cls-1" d="M15.333,28.667A13.333,13.333,0,1,1,28.667,15.333,13.355,13.355,0,0,1,15.333,28.667Zm0-24A10.667,10.667,0,1,0,26,15.333,10.681,10.681,0,0,0,15.333,4.667Z" transform="translate(-2 -2)"/>
+  </g>
+  <rect id="Rectangle_18642" data-name="Rectangle 18642" class="cls-2" width="32" height="32"/>
+</svg>

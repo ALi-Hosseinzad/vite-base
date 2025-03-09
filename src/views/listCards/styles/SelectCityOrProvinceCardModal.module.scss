@@ -1,0 +1,104 @@
+@import "../../../assets//styles/_Variables.scss";
+
+.add-cards-form-item {
+  width: 343px;
+  margin: 8px auto;
+}
+.add-cards-item {
+  width: 343px;
+  margin: 24px auto;
+}
+.add-cards-item > button {
+  margin: 0px auto;
+}
+.add-card-btn {
+  width: 343px;
+  margin: 32px auto 0px;
+}
+.add-card-btn > div > div > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+.list-card-btn-confirm-button {
+  padding: 11px 96px;
+  height: 40px;
+}
+.list-card-btn-confirm-button > span,
+.list-card-btn-cancel-button > span {
+  font-size: 16px;
+}
+.list-card-btn-cancel-button {
+  height: 40px;
+}
+.select-card-form {
+  width: 600px;
+  margin: 24px auto 0px;
+}
+.select-card-space {
+  width: 300px;
+  display: flex;
+  margin: 24px auto;
+}
+.select-card-text {
+  margin: 0px;
+  font-size: 14px;
+}
+.eyeModalContainer {
+  width: 600px;
+  margin: auto;
+  border-radius: 12px;
+  padding: 8px 16px 12px;
+  border: 1px solid $Grey-LineBack;
+  p {
+    margin: 8px 0px;
+  }
+}
+.eyeRow {
+  :first-child {
+    color: $Grey-Dark3;
+    font-family: $Medium !important;
+  }
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $Grey-LineBack;
+}
+.eyeModalContainer > div:last-child {
+  border-bottom: unset;
+}
+.select-card-form-item {
+  width: 440px;
+  margin: 0px auto;
+}
+.select-card-form-select {
+  height: 40px;
+  display: flex;
+  margin: 0px auto;
+  :global {
+    .ant-select-selector {
+      height: 40px !important;
+    }
+  }
+}
+.select-card-btn-part {
+  width: 440px !important;
+}
+.select-card-form-btn {
+  width: 108px;
+}
+.address {
+  color: $Grey-Dark3;
+  font-family: $Medium !important;
+  span {
+    color: $Grey-Dark5;
+  }
+}
+.print-button {
+  width: 343px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 11px 0px;
+  margin: 24px auto 0px;
+}

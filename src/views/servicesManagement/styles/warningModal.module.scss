@@ -1,0 +1,38 @@
+@import "../../../assets/styles/_Variables.scss";
+.deactivate-service-modal-buttons {
+  display: flex;
+  width: 100%;
+  max-width: 343px;
+  justify-content: space-between;
+  margin: auto;
+  .deactivate-service-modal-confirm-button {
+    width: 65%;
+    height: 40px;
+    span {
+      font-size: 16px;
+    }
+  }
+  .deactivate-service-modal-cancel-button {
+    width: calc(35% - 24px);
+    height: 40px;
+    span {
+      font-size: 16px;
+    }
+  }
+}
+.deactive-service-modal-text {
+  display: flex;
+  width: 356px;
+  margin: auto;
+  margin-top: 8px;
+  p {
+    margin-right: 4px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+}
+.deactive-service-modal-note {
+  margin: 24px auto 40px;
+  font-size: 16px;
+  text-align: center;
+}

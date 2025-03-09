@@ -1,0 +1,52 @@
+.form {
+  margin: 16px auto auto;
+  width: 343px;
+}
+.form-item {
+  margin-bottom: 0px !important;
+  width: 311px;
+}
+.form-item > div > div {
+  padding-bottom: 4px !important;
+}
+.form-item > div > div > label {
+  color: var(--Grey-Dark5);
+}
+.form-input {
+  height: 48px;
+  font-size: 16px !important;
+  line-height: 26px !important;
+}
+.form-input::placeholder {
+  font-size: 16px !important;
+  line-height: 26px !important;
+}
+.form-input-mobile {
+  @extend .form-input;
+  text-align: left;
+  direction: ltr;
+  &::placeholder {
+    text-align: start;
+  }
+}
+.form-item-btn {
+  width: 311px;
+  margin-bottom: 8px;
+}
+.form-item-btn > div > div > div > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-item-btn > div > div > div > div > button {
+  height: 40px;
+}
+.form-item-btn-success {
+  padding: 11px 96px;
+}
+.form-item-btn-cancel {
+  padding: 11px 18px;
+}

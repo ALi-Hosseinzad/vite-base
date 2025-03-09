@@ -1,0 +1,35 @@
+* {
+  font-family: Vazir-regular-FD !important;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  direction: rtl;
+  text-orientation: initial;
+  writing-mode: initial;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+p,
+strong,
+mark,
+small,
+del,
+sub,
+sup,
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+em,
+th,
+tr,
+label {
+  cursor: default;
+}

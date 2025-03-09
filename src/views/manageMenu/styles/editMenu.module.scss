@@ -1,0 +1,87 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 718px;
+  margin: 0px auto 24px;
+  > div {
+    margin-bottom: 0px !important;
+  }
+}
+.last-row {
+  display: flex;
+  justify-content: space-between;
+  width: 718px;
+  margin: 0px auto;
+  > div {
+    margin-bottom: 0px !important;
+  }
+  > div > div {
+    margin-bottom: 0px;
+  }
+}
+.input-modal {
+  height: 48px !important;
+  border-radius: 12px !important;
+  font-size: 16px;
+}
+.form-edit-menu {
+  border: none;
+  margin: 0px;
+}
+.switch-container {
+  width: 343px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border: 1px solid var(--Grey-Dark1);
+  border-radius: 12px;
+}
+.select-menu-edit {
+  display: flex;
+  height: 48px;
+  width: 343px !important;
+  border-radius: 12px;
+  > div {
+    height: 48px !important;
+    > span > div {
+      display: flex;
+      align-items: center;
+      height: 48px;
+      justify-content: space-between !important;
+      img {
+        margin-left: 8px;
+      }
+    }
+  }
+}
+.enable-visible-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 718px;
+  margin: 0 auto;
+  input {
+    height: 48px;
+  }
+  .min-max-version {
+    display: flex;
+    width: 343px;
+    justify-content: space-between;
+  }
+}
+.edit-menu-buttons {
+  margin-bottom: 0px !important;
+  .menu-edit-modal-confirm-button {
+    width: 65%;
+    height: 40px;
+    span {
+      font-size: 16px;
+    }
+  }
+  .menu-edit-modal-cancel-button {
+    width: calc(35% - 24px);
+    height: 40px;
+    span {
+      font-size: 16px;
+    }
+  }
+}

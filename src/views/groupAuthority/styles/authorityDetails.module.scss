@@ -1,0 +1,32 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.groups-authority-details-container {
+  height: fit-content;
+  width: 686px;
+  border-radius: 12px;
+  border: 1px solid $Grey-LineBack;
+  margin: auto;
+  padding: 16px;
+}
+.groups-details-first-line {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid $Grey-LineBack;
+}
+.groups-details-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.groups-authority-button {
+  width: 343px;
+  margin: 32px auto 16px;
+  height: 40px;
+}
+.groups-authority-descriptions {
+  width: calc(100% - 150px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}

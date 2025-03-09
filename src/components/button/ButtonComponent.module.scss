@@ -1,0 +1,127 @@
+@import "../../assets/styles/_Variables.scss";
+
+.ant-btn-primary {
+  background-color: red;
+}
+.rightIcon {
+  margin-left: 4px;
+}
+.leftIcon {
+  margin-right: 4px;
+}
+.mainStyle {
+  border-radius: 8px !important;
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center !important;
+  align-items: center !important;
+}
+.mainStyle > span {
+  font-family: Vazir-regular-FD;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+}
+.default {
+  @extend .mainStyle;
+  color: $Logo-GreenDark !important;
+  border: 1px solid $Logo-GreenDark;
+}
+.default:focus {
+  border: 1px solid $Logo-GreenDark !important;
+}
+.default:hover {
+  border: 1px solid $Logo-GreenDark !important;
+}
+.default:active {
+  border: 1px solid $Logo-GreenDark !important;
+}
+.default-danger {
+  @extend .mainStyle;
+  color: $Notif-Red !important;
+  border: 1px solid $Notif-Red;
+}
+.default-danger:focus {
+  border: 1px solid $Notif-Red !important;
+}
+.default-danger:hover {
+  border: 1px solid $Notif-Red !important;
+}
+.default-danger:active {
+  border: 1px solid $Notif-Red !important;
+}
+.primary {
+  @extend .mainStyle;
+  background: $Logo-GreenDark;
+  border: 1px solid $Logo-GreenDark;
+}
+.primary:focus,
+.primary:hover,
+.primary:active {
+  border: 1px solid $Logo-GreenDark;
+  background: $Logo-GreenDark !important;
+}
+.secondary {
+  @extend .mainStyle;
+  color: $Logo-GreenDark !important;
+  background-color: $Green-Light3;
+  border: 1px solid $Green-Light3;
+}
+.secondary > span {
+  font-weight: 500 !important;
+  font-size: 14px;
+  line-height: 23px;
+}
+.secondary:hover,
+.secondary:focus,
+.secondary:active {
+  color: $Logo-GreenDark !important;
+  background-color: $Green-Light3 !important;
+  border: 1px solid $Green-Light3 !important;
+}
+.danger {
+  @extend .mainStyle;
+  background: $Notif-Pink;
+  border: 1px solid $Notif-Pink;
+  color: $Notif-Red;
+}
+.danger:hover,
+.danger:focus,
+.danger:active {
+  background: $Notif-Pink;
+  border: 1px solid $Notif-Pink;
+  color: $Notif-Red;
+}
+
+.text {
+  @extend .mainStyle;
+  background-blend-mode: overlay;
+  mix-blend-mode: normal;
+  background: transparent;
+  color: $Logo-GreenDark;
+}
+.text:focus,
+.text:active,
+.text:hover {
+  background: $Green-Light2;
+  color: $Logo-GreenDark;
+}
+.text-danger {
+  @extend .mainStyle;
+  background-blend-mode: overlay;
+  mix-blend-mode: normal;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+  color: $Notif-Red !important;
+}
+.text-danger:focus,
+.text-danger:active,
+.text-danger:hover {
+  background: transparent !important;
+  color: $Notif-Red !important;
+  border: 1px solid transparent !important;
+}
+.disabled-default {
+  @extend .mainStyle;
+}

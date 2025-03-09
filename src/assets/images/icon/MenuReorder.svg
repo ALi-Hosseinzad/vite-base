@@ -1,0 +1,17 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3192_53119)">
+<path d="M20.7319 10.3252C21.6782 11.9474 22.2663 16.0476 18.373 17.9942" stroke="#2B9570" stroke-width="1.8" stroke-linecap="round" style="mix-blend-mode:overlay"/>
+<path d="M21.2023 7.09947C21.5258 7.17777 21.6177 7.59386 21.3573 7.80118L18.0692 10.4192C17.8057 10.6289 17.4168 10.4391 17.42 10.1024L17.453 6.69658C17.4555 6.4392 17.6969 6.25113 17.9471 6.31168L21.2023 7.09947Z" fill="#2B9570" style="mix-blend-mode:overlay"/>
+<rect x="1.40195" y="5.05039" width="13.4644" height="1.9" rx="0.95" fill="#2B9570" style="mix-blend-mode:overlay"/>
+<rect x="1.40195" y="5.05039" width="13.4644" height="1.9" rx="0.95" stroke="#2B9570" stroke-width="0.2" style="mix-blend-mode:overlay"/>
+<rect x="1.40195" y="11.0504" width="13.4644" height="1.9" rx="0.95" fill="#2B9570" style="mix-blend-mode:overlay"/>
+<rect x="1.40195" y="11.0504" width="13.4644" height="1.9" rx="0.95" stroke="#2B9570" stroke-width="0.2" style="mix-blend-mode:overlay"/>
+<rect x="1.40195" y="17.0504" width="13.4644" height="1.9" rx="0.95" fill="#2B9570" style="mix-blend-mode:overlay"/>
+<rect x="1.40195" y="17.0504" width="13.4644" height="1.9" rx="0.95" stroke="#2B9570" stroke-width="0.2" style="mix-blend-mode:overlay"/>
+</g>
+<defs>
+<clipPath id="clip0_3192_53119">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,76 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.tabs {
+  :global {
+    .ant-tabs-nav .ant-tabs-tab {
+      min-width: 210px;
+    }
+  }
+}
+.search-part-btn {
+  margin-right: auto !important;
+  margin-left: 0px !important;
+  & > div > div > div > div {
+    display: inline-flex;
+  }
+  button {
+    width: 79px !important;
+    height: 32px !important;
+  }
+}
+.date-picker {
+  > div > input {
+    height: 32px !important;
+    width: 196px !important;
+  }
+  > div > span {
+    top: unset;
+  }
+}
+.form-item {
+  :global {
+    .ant-form-item-control-input-content {
+      > div {
+        margin: 0px auto !important;
+      }
+    }
+  }
+}
+.date-picker-pad {
+  margin-top: 8px !important;
+}
+.chip {
+  width: fit-content;
+  padding: 6px;
+  border-radius: 6px;
+  min-width: 88px;
+  height: 28px;
+  font-family: $Regular;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.34px;
+  text-align: center;
+}
+.ACCEPTED-chip {
+  @extend .chip;
+  color: $Logo-GreenDark;
+  background-color: $Green-Light3;
+}
+.IN_PROGRESS-chip,
+.CUSTOMER_MODIFY-chip {
+  @extend .chip;
+  color: $Narenji-Light3;
+  background-color: $Narenji-Light1;
+}
+.REJECTED-chip,
+.DECLINE-chip {
+  @extend .chip;
+  color: $Notif-Red;
+  background-color: $Notif-Pink;
+}
+.RECHECK_BRANCH-chip {
+  @extend .chip;
+  color: $Notif-Yellow;
+  background: rgba(253, 231, 180, 0.4);
+  background-blend-mode: overlay;
+}

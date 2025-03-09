@@ -1,0 +1,59 @@
+@import "../../assets/styles/_Variables.scss";
+
+.input-component {
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid $Grey-Dark1;
+  font-family: Vazir-regular-FD;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 12px;
+  line-height: 19px;
+  padding: 5px 8px;
+  align-items: center;
+}
+.input-component-with-counter > textarea {
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid $Grey-Dark1;
+  font-family: $Regular;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 12px;
+  line-height: 19px;
+  padding: 5px 8px;
+  align-items: center;
+}
+.input-component-with-icon {
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid $Grey-Dark1;
+  font-family: Vazir-regular-FD;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 19px !important;
+  align-items: center;
+  padding: 3px 8px !important;
+}
+.input-component:hover,
+.input-component:focus,
+.input-component:active,
+.input-component-with-icon:hover,
+.input-component-with-icon:hover,
+.input-component-with-icon:active,
+.input-component-with-counter > textarea:hover,
+.input-component-with-counter > textarea:focus,
+.input-component-with-counter > textarea:active {
+  border: 1px solid $Logo-GreenDark !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.input-component::placeholder,
+.input-component-with-icon > input::placeholder,
+.input-component-with-counter > textarea::placeholder {
+  color: $Grey-Dark1;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 19px !important;
+}

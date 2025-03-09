@@ -1,0 +1,10 @@
+.search-history-btn {
+  margin-left: 0px !important;
+  margin-right: auto !important;
+  & > div > div > div > div {
+    display: inline-flex;
+  }
+}
+.td-margin {
+  margin-right: 8px;
+}

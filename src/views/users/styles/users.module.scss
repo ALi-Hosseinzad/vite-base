@@ -1,0 +1,182 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.users-search-bar-btn {
+  margin-left: 0px !important;
+  margin-right: auto !important;
+  & > div > div > div > div {
+    display: inline-flex;
+  }
+}
+.addModal {
+  width: 343px;
+  margin: auto;
+  margin-top: 24px;
+}
+.input-user-form {
+  height: 48px;
+  text-align: left !important;
+  &::placeholder {
+    text-align: right !important;
+  }
+}
+.username-warning-div {
+  display: flex;
+  align-items: flex-start;
+}
+.warning-username {
+  color: $Grey-Dark3;
+  font-size: 14px;
+}
+.role-template {
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  flex-wrap: wrap;
+  > div {
+    width: 100%;
+  }
+  label {
+    display: flex;
+    align-items: center !important;
+    margin: 12px 0px !important;
+    > :first-child {
+      span {
+        border: 1px solid $Logo-GreenDark;
+      }
+    }
+  }
+}
+.register-input {
+  height: 48px !important;
+  > div {
+    height: 48px !important;
+    > span > input {
+      height: 48px !important;
+    }
+  }
+}
+.register-select,
+.register-select > div {
+  height: 48px !important;
+}
+.register-number-input {
+  height: 48px;
+  direction: ltr;
+}
+.bottom-inputs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.list-users-status {
+  display: flex;
+  justify-content: flex-end;
+}
+.list-users-status-part {
+  display: inline-flex;
+  align-items: center;
+}
+.list-users-icon {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.list-users-lock-icon {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.unblock-sort-icon {
+  display: flex;
+  justify-content: center !important;
+}
+.users-btn {
+  height: 32px !important;
+}
+.register-button {
+  margin-bottom: 0px !important;
+}
+.register-button > div > div > div > div {
+  margin-top: 16px !important;
+}
+.confirm-button {
+  width: 65%;
+}
+.cancel-button {
+  width: calc(35% - 24px);
+}
+.role-container {
+  width: 100%;
+  height: fit-content;
+  max-height: calc(60vh);
+  overflow-y: auto;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    display: block;
+    width: 4px !important;
+  }
+  &::-webkit-scrollbar-thumb {
+    width: 4px !important;
+    display: block;
+  }
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      display: block;
+      background-color: $Green-Dark1 !important;
+      width: 4px !important;
+    }
+  }
+}
+.roles-buttons {
+  margin-bottom: 0px !important;
+}
+.detail-modal {
+  width: 918px !important;
+}
+.body-detail {
+  border: 1px solid $Grey-LineBack;
+  border-radius: 12px;
+  padding: 8px 16px 4px 16px;
+  margin: auto;
+  max-width: 718px;
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $Grey-LineBack;
+    padding: 8px 0px !important;
+    font-size: 14px;
+    :first-child {
+      font-weight: 300 !important;
+    }
+    :last-child {
+      font-weight: 400;
+      text-align: left;
+      justify-content: flex-end !important;
+      max-width: 320px;
+    }
+    p {
+      margin: 0px !important;
+    }
+  }
+  :last-child {
+    border: none;
+  }
+  .modal-roles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    max-width: 60% !important;
+  }
+  .role-row {
+    align-items: flex-start;
+    p {
+      margin-top: 4px !important;
+    }
+  }
+}
+.modalBtn {
+  margin: auto;
+  width: 343px;
+  margin-top: 32px;
+  height: 40px;
+}

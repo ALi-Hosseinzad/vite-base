@@ -1,0 +1,28 @@
+.site-collapse-custom-collapse {
+  background: var(--White);
+  min-width: 343px;
+  max-width: 343px;
+  border-radius: 12px;
+  margin-top: 24px;
+}
+.site-collapse-custom-collapse {
+  :global {
+    .ant-collapse-item {
+      background: var(--White);
+      background-blend-mode: overlay;
+      mix-blend-mode: normal;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.07);
+      border-radius: 12px !important;
+      border-bottom: unset !important;
+    }
+    .ant-collapse-item-active .ant-collapse-header {
+      background: var(--Green-Light3);
+      background-blend-mode: overlay;
+      mix-blend-mode: normal;
+    }
+  }
+}
+.edit-username-icon-rotate {
+  transform: translateY(-50%) rotate(180deg) !important;
+  margin-top: 24px;
+}

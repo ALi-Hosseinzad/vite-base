@@ -1,0 +1,43 @@
+export const ListUsers = [
+  {
+    id: 1000,
+    checked: false,
+    personelId: "40103283",
+    identification_code: "0014565489",
+    nameInfo: "مهرداد کریمی فاطمی",
+    phoneNumber: "09123456789",
+    branchCode: "019",
+    lock: true,
+  },
+  {
+    id: 1001,
+    checked: true,
+    personelId: "40103284",
+    identification_code: "0014565490",
+    nameInfo: "مهرداد",
+    phoneNumber: "09123456790",
+    branchCode: "020",
+    lock: false,
+  },
+  {
+    id: 1002,
+    checked: true,
+    personelId: "40103285",
+    identification_code: "0014565491",
+    nameInfo: "مهرداد کریمی",
+    phoneNumber: "09123456791",
+    branchCode: "021",
+
+    lock: true,
+  },
+  {
+    id: 1003,
+    checked: false,
+    personelId: "40103286",
+    identification_code: "0014565492",
+    nameInfo: "آقا سید مهرداد",
+    phoneNumber: "09123456792",
+    branchCode: "022",
+    lock: true,
+  },
+];

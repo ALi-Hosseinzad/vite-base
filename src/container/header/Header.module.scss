@@ -1,0 +1,110 @@
+.site-page-header {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  > div > span > div > div {
+    border-left: none !important;
+  }
+}
+.site-page-header > div > div,
+.site-page-header > div > span {
+  margin: 0px;
+}
+.header-title {
+  direction: ltr !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-title-icon {
+  margin-right: 8px;
+}
+.change-password-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 343px;
+}
+.dropdown-content > ul {
+  width: 116px;
+  padding: 0px !important;
+}
+.dropdown-content > ul li {
+  padding: 0px !important;
+  width: 116px;
+}
+.dropdown-content > ul {
+  :global {
+    .ant-dropdown-menu-item-divider {
+      margin: 0px !important;
+    }
+  }
+}
+.header-change {
+  color: var(--Grey-Dark5);
+  height: auto;
+  padding: 8px 16px 8px 0px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.header-exit {
+  color: var(--Notif-Red);
+  height: auto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 8px 16px 8px 0px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.header-exit:hover {
+  background-color: var(--Notif-Pink);
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.header-change:hover {
+  background-color: var(--Green-Light4);
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.new-password-confirm-btn {
+  width: 65%;
+}
+.new-password-cancel-btn {
+  width: calc(35% - 24px);
+}
+.password-input input {
+  font-size: 14px !important;
+  direction: ltr;
+}
+.success-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.success-text {
+  color: var(--Logo-GreenDark);
+  font-size: 16px;
+  margin-top: 23px;
+  margin-bottom: 0;
+  font-family: var(--Medium) !important;
+}
+.success-text-two {
+  color: var(--Grey-Dark5);
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.success-btn {
+  height: 40px;
+  width: 343px;
+}
+.logout-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,58 @@
+export const ListBanks = [
+  {
+    id: 1000,
+    switch: "enable",
+    bankCode: 11,
+    bankName: "کارآفرین",
+    bankBin: "#62198610",
+  },
+  {
+    id: 1001,
+    switch: "enable",
+    bankCode: 12,
+    bankName: "سامان",
+    bankBin: "#62198610",
+  },
+  {
+    id: 1002,
+    switch: "enable",
+    bankCode: 13,
+    bankName: "اقتصاد نوین",
+    bankBin: "#62198610",
+  },
+  {
+    id: 1003,
+    switch: "enable",
+    bankCode: 14,
+    bankName: "کارآفرین",
+    bankBin: "#62198610",
+  },
+  {
+    id: 1004,
+    switch: "enable",
+    bankCode: 15,
+    bankName: "کارآفرین",
+    bankBin: "#62198610",
+  },
+  {
+    id: 1005,
+    switch: "enable",
+    bankCode: 16,
+    bankName: "کارآفرین",
+    bankBin: "#62198610",
+  },
+  {
+    id: 1006,
+    switch: "enable",
+    bankCode: 17,
+    bankName: "کارآفرین",
+    bankBin: "#62198610",
+  },
+  {
+    id: 1007,
+    switch: "enable",
+    bankCode: 18,
+    bankName: "کارآفرین",
+    bankBin: "#62198610",
+  },
+];

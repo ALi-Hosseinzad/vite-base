@@ -1,0 +1,104 @@
+@import "../../../assets/styles/_Variables.scss";
+
+.account-search-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  .ant-form-item {
+    width: 70%;
+  }
+  > div:first-child {
+    margin-bottom: 0px !important;
+  }
+}
+.account-search-bar-input {
+  width: 100%;
+}
+.account-search-bar-btn > div > div > div > div {
+  display: flex !important;
+}
+.account-search-btn {
+  height: 32px !important;
+  width: 80px;
+}
+.account-status {
+  margin-right: 16px;
+}
+.account-btn-part {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.identification-admin-stamp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  > div {
+    margin-bottom: 0px !important;
+  }
+  > div.ant-form-item-has-error {
+    margin-bottom: 0px !important;
+  }
+}
+.stamp-identification,
+.admin-identification {
+  margin-right: 8px;
+  margin-left: 32px;
+  display: -ms-flexbox;
+  display: flex;
+  height: 58px;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+.account-id-code {
+  width: 100%;
+  position: relative;
+  input {
+    width: 100%;
+    border: 1px solid $Grey-Dark1;
+    border-radius: 8px;
+  }
+  img {
+    position: absolute;
+    top: 0;
+  }
+}
+.deactive-status-badge {
+  width: 123px;
+  height: 28px;
+  border-radius: 6px;
+  background-color: $Grey-Light3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $Grey-Dark3;
+  font-size: 12px;
+}
+.active-status-badge {
+  width: 123px;
+  height: 28px;
+  border-radius: 6px;
+  background-color: $Green-Light3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $Logo-GreenDark;
+  font-size: 12px;
+}
+.wait-status-badge {
+  width: 123px;
+  height: 28px;
+  border-radius: 6px;
+  background-color: $Narenji-Light1;
+  display: flex;
+  justify-content: center;
+  color: $Narenji-Light3;
+  align-items: center;
+  font-size: 12px;
+}
+.login-as-corporate {
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

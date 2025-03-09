@@ -1,0 +1,43 @@
+@import "../../assets/styles/_Variables.scss";
+
+.enableChipContainer {
+  width: fit-content !important;
+  padding: 3px 6px;
+  margin: 4px;
+  background-color: $Notif-GreenLight1;
+  border-radius: 4px;
+  color: $Logo-GreenDark;
+  display: flex;
+  align-items: center;
+  p {
+    line-height: 19px;
+  }
+}
+
+.redChipContainer {
+  width: fit-content !important;
+  padding: 3px 6px;
+  margin: 4px;
+  background-color: $Notif-Pink;
+  border-radius: 4px;
+  color: $Notif-Red;
+  display: flex;
+  align-items: center;
+  p {
+    line-height: 19px;
+  }
+}
+
+.disableChipContainer {
+  width: fit-content !important;
+  padding: 3px 6px;
+  margin: 4px;
+  background-color: $Grey-Light4;
+  border-radius: 4px;
+  color: $Grey-Dark2;
+  display: flex;
+  align-items: center;
+  p {
+    line-height: 19px;
+  }
+}

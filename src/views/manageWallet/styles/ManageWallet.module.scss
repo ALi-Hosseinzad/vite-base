@@ -1,0 +1,32 @@
+.account-search-bar {
+  display: flex;
+  width: 100%;
+  .ant-form-item {
+    width: 70%;
+  }
+  > div:first-child {
+    margin-bottom: 0px !important;
+  }
+}
+
+.account-search-bar-btn {
+  margin-left: 16px;
+  margin-right: auto !important;
+  > div > div > div > div {
+    display: flex;
+  }
+}
+.NewDatePicker {
+  margin-top: 0px !important;
+}
+.date-picker {
+  margin-top: 0px !important;
+  > div > input {
+    height: 32px !important;
+    width: 196px !important;
+  }
+}
+
+.date-picker-pad {
+  margin-top: 8px !important;
+}

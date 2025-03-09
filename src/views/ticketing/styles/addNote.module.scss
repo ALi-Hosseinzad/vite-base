@@ -1,0 +1,21 @@
+@import "../../../assets/styles/_Variables.scss";
+.add-note-modal {
+  margin-top: 0px;
+}
+.add-note-btn {
+  margin-bottom: 0px !important;
+  > div > div > div > div {
+    display: inline-flex;
+    justify-content: space-between;
+    max-width: 343px !important;
+    margin: 16px auto 0px;
+  }
+}
+.add-note-confirm-button {
+  width: 65%;
+  height: 40px;
+}
+.add-note-cancel-button {
+  width: calc(35% - 24px);
+  height: 40px;
+}

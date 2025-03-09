@@ -1,0 +1,54 @@
+.success-add-new-customer {
+  display: flex;
+  flex-direction: column;
+  max-width: 343px;
+  margin: 16px auto 0px;
+  justify-content: center;
+  align-items: center;
+}
+.success-add-new-customer-text {
+  color: var(--Logo-GreenDark);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.success-add-new-customer-btn {
+  width: 343px;
+  margin-top: 40px;
+  height: 40px;
+}
+.success-add-new-customer-username {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--Grey-Dark5);
+  & span {
+    margin-left: 4px;
+  }
+}
+.success-recover-password-text {
+  color: var(--Grey-Dark5);
+  margin: 24px auto -16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: vazir-medium-FD;
+}
+.set-username-space {
+  margin: 18px auto 172px;
+  width: 343px;
+  display: flex;
+  align-items: baseline;
+}
+.set-username-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: right;
+  color: var(--Grey-Dark3);
+  > span {
+    color: var(--Green-Dark2);
+  }
+}

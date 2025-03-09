@@ -1,0 +1,52 @@
+@import "../../../assets/styles/_Variables.scss";
+.account-search-bar {
+  display: flex;
+  width: 100%;
+  .ant-form-item {
+    width: 70%;
+  }
+  > div:first-child {
+    margin-bottom: 0px !important;
+  }
+}
+
+.account-search-bar-btn {
+  margin-left: 16px;
+  margin-right: auto !important;
+  > div > div > div > div {
+    display: flex;
+  }
+}
+.NewDatePicker {
+  margin-top: 0px !important;
+}
+.date-picker {
+  margin-top: 0px !important;
+  > div > input {
+    height: 32px !important;
+    width: 196px !important;
+  }
+  > div > span {
+    top: unset;
+  }
+}
+
+.date-picker-pad {
+  margin-top: 8px !important;
+}
+.green {
+  background-color: $Green-Light3;
+  color: $Green-Dark2;
+  text-align: center;
+  width: fit-content;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+.red {
+  background-color: $Notif-Pink;
+  color: $Notif-Red;
+  text-align: center;
+  width: fit-content;
+  padding: 0 10px;
+  border-radius: 4px;
+}

@@ -1,0 +1,42 @@
+.validation-wrapper {
+  max-width: 343px;
+  margin: auto;
+}
+.validation-wrapper-change-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 343px;
+}
+.validation-wrapper-change-mobile-text {
+  margin: 40px auto 8px;
+}
+.validation-wrapper-change-mobile-btn {
+  margin-bottom: 40px;
+}
+.validation-form-item > div > div {
+  padding-bottom: 4px !important;
+}
+.validation-form-item > div > div > label {
+  margin-top: 50px !important;
+  color: var(--Grey-Dark5);
+}
+.validation-form-input {
+  height: 48px;
+  font-size: 16px !important;
+  line-height: 26px !important;
+  text-align: center;
+  direction: ltr;
+}
+.validation-form-timer {
+  margin-bottom: 118px;
+}
+.validation-modal-confirm-button {
+  width: 65%;
+  height: 40px;
+}
+.validation-modal-cancel-button {
+  width: calc(35% - 24px);
+  height: 40px;
+}
